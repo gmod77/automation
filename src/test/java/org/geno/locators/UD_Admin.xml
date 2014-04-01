@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Status" locator_type="id" locator_value="article_article_status_id" />
+    <element name="DedicatedArticleCheck" locator_type="id" locator_value="article_is_dedicated" />
+    <element name="ArticleTemplateTypeDropdown" locator_type="id" locator_value="article_article_template_id" />
+    <element name="LayoutModuleDropdown" locator_type="id" locator_value="article_layout_module" />
+    <element name="LayoutModuleWidthDropDown" locator_type="id" locator_value="article_layout_width" />
+    <element name="AdCampaignDropdown" locator_type="id" locator_value="article_ad_campaign_id" />
+    <element name="AuthorDropdown" locator_type="id" locator_value="article_author_id" />
+    <element name="FromEmailDisplay" locator_type="id" locator_value="details_from_display" />
+    <element name="EmailSegmentDropdown" locator_type="id" locator_value="details_segment" />
+    <element name="ArticleTitleBox" locator_type="id" locator_value="article_name" />
+    <element name="ArticleEmailSubjectBox" locator_type="id" locator_value="article_email_subject_line" />
+    <element name="ArticleBusinessSubjectBox" locator_type="id" locator_value="article_business_name" />
+    <element name="ArticleSubHeaderBox" locator_type="id" locator_value="article_teaser" />
+    <element name="ArticleBlurbBox" locator_type="id" locator_value="article[blurb]" />
+    <element name="ArticleIphoneBlurbBox" locator_type="id" locator_value="article[blurb_iphone]" />
+    <element name="ArticleTwitterBlurbBox" locator_type="id" locator_value="article_blurb_twitter" />
+    <element name="ArticleLegalLineBox" locator_type="id" locator_value="article[footer_additional]" />
+    <element name="ArticleKeywordsBox" locator_type="id" locator_value="article_keywords" />
+    <element name="ArticleBusinessTypeDropdown" locator_type="id" locator_value="article_business_type_id" />
+    <element name="ArticleBusinessSpecialtyBox" locator_type="id" locator_value="article_business_specialty" />
+    <element name="SaveButton" locator_type="name" locator_value="save" />
+    <element name="SuccessConfirmationText" locator_type="css" locator_value=".save-ok>h2" />
+    <element name="ArticlePhotoCreditBox" locator_type="id" locator_value="article[photo_credit]" />
+    <element name="ArticleFeatureBox" locator_type="id" locator_value="article[short]" />
+
+    <!--Article Image Uploading-->
+    <element name="ArticleImageNameBox" locator_type="id" locator_value="article_image_name" />
+    <element name="ArticleImageIdBox" locator_type="id" locator_value="article_image_article_id" />
+    <element name="ArticleImagePositionDropdown" locator_type="id" locator_value="article_image_article_image_position_id" />
+    <element name="SaveAndAddImage" locator_type="name" locator_value="save_and_add" />
+
+    <!--Article Ad Selection-->
+    <element name="SelectRightModuleDropdown" locator_type="id" locator_value="_select_modules_right" />
+    <element name="SelectCenterModuleDropdown" locator_type="id" locator_value="_select_modules_center" />
+    <element name="SelectLeftModuleDropdown" locator_type="id" locator_value="_select_modules_left" />
+
+    <!--MultiArticle Day Selection-->
+    <element name="SelectDay1Dropdown" locator_type="xpath"     locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[2]/td[1]/div[1]/select" />
+    <element name="Day1HeaderBox" locator_type="xpath"          locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[2]/td[1]/div[5]/input" />
+    <element name="Day1SubHeaderBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[2]/td[1]/div[6]/input" />
+    <element name="Day1SubheaderURLBox" locator_type="xpath"    locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[2]/td[1]/div[7]/input" />
+    <element name="Day1ImageFileBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[2]/td[1]/div[8]/input" />
+    <element name="Day1ImageURLCheckBox" locator_type="xpath"   locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[2]/td[1]/div[9]/input[1]" />
+    <element name="Day1ImageURLBox" locator_type="xpath"        locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[2]/td[1]/div[9]/input[2]" />
+    <element name="Day1AltTextBox" locator_type="xpath"         locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[2]/td[1]/div[10]/input" />
+
+    <element name="SelectDay2Dropdown" locator_type="xpath"     locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[4]/td[1]/div[1]/select" />
+    <element name="Day2HeaderBox" locator_type="xpath"          locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[4]/td[1]/div[5]/input" />
+    <element name="Day2SubHeaderBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[4]/td[1]/div[6]/input" />
+    <element name="Day2SubheaderURLBox" locator_type="xpath"    locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[4]/td[1]/div[7]/input" />
+    <element name="Day2ImageFileBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[4]/td[1]/div[8]/input" />
+    <element name="Day2ImageURLCheckBox" locator_type="xpath"   locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[4]/td[1]/div[9]/input[1]" />
+    <element name="Day2ImageURLBox" locator_type="xpath"        locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[4]/td[1]/div[9]/input[2]" />
+    <element name="Day2AltTextBox" locator_type="xpath"         locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[4]/td[1]/div[10]/input" />
+    
+    <element name="SelectDay3Dropdown" locator_type="xpath"     locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[6]/td[1]/div[1]/select" />
+    <element name="Day3HeaderBox" locator_type="xpath"          locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[6]/td[1]/div[5]/input" />
+    <element name="Day3SubHeaderBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[6]/td[1]/div[6]/input" />
+    <element name="Day3SubheaderURLBox" locator_type="xpath"    locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[6]/td[1]/div[7]/input" />
+    <element name="Day3ImageFileBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[6]/td[1]/div[8]/input" />
+    <element name="Day3ImageURLCheckBox" locator_type="xpath"   locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[6]/td[1]/div[9]/input[1]" />
+    <element name="Day3ImageURLBox" locator_type="xpath"        locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[6]/td[1]/div[9]/input[2]" />
+    <element name="Day3AltTextBox" locator_type="xpath"         locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[6]/td[1]/div[10]/input" />
+
+    <element name="SelectDay4Dropdown" locator_type="xpath"     locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[8]/td[1]/div[1]/select" />
+    <element name="Day4HeaderBox" locator_type="xpath"          locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[8]/td[1]/div[5]/input" />
+    <element name="Day4SubHeaderBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[8]/td[1]/div[6]/input" />
+    <element name="Day4SubheaderURLBox" locator_type="xpath"    locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[8]/td[1]/div[7]/input" />
+    <element name="Day4ImageFileBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[8]/td[1]/div[8]/input" />
+    <element name="Day4ImageURLCheckBox" locator_type="xpath"   locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[8]/td[1]/div[9]/input[1]" />
+    <element name="Day4ImageURLBox" locator_type="xpath"        locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[8]/td[1]/div[9]/input[2]" />
+    <element name="Day4AltTextBox" locator_type="xpath"         locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[8]/td[1]/div[10]/input" />
+
+    <element name="SelectDay5Dropdown" locator_type="xpath"     locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[10]/td[1]/div[1]/select" />
+    <element name="Day5HeaderBox" locator_type="xpath"          locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[10]/td[1]/div[5]/input" />
+    <element name="Day5SubHeaderBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[10]/td[1]/div[6]/input" />
+    <element name="Day5SubheaderURLBox" locator_type="xpath"    locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[10]/td[1]/div[7]/input" />
+    <element name="Day5ImageFileBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[10]/td[1]/div[8]/input" />
+    <element name="Day5ImageURLCheckBox" locator_type="xpath"   locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[10]/td[1]/div[9]/input[1]" />
+    <element name="Day5ImageURLBox" locator_type="xpath"        locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[10]/td[1]/div[9]/input[2]" />
+    <element name="Day5AltTextBox" locator_type="xpath"         locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[10]/td[1]/div[10]/input" />
+
+    <element name="SelectDay6Dropdown" locator_type="xpath"     locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[12]/td[1]/div[1]/select" />
+    <element name="Day6HeaderBox" locator_type="xpath"          locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[12]/td[1]/div[5]/input" />
+    <element name="Day6SubHeaderBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[12]/td[1]/div[6]/input" />
+    <element name="Day6SubheaderURLBox" locator_type="xpath"    locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[12]/td[1]/div[7]/input" />
+    <element name="Day6ImageFileBox" locator_type="xpath"       locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[12]/td[1]/div[8]/input" />
+    <element name="Day6ImageURLCheckBox" locator_type="xpath"   locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[12]/td[1]/div[9]/input[1]" />
+    <element name="Day6ImageURLBox" locator_type="xpath"        locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[12]/td[1]/div[9]/input[2]" />
+    <element name="Day6AltTextBox" locator_type="xpath"         locator_value="html/body/div[3]/div/div[2]/form/fieldset/table/tbody/tr[12]/td[1]/div[10]/input" />
+    
+    <!--Test and Send Email-->
+    <element name="MailingSendToBox" locator_type="id" locator_value="mailing_send_to" />
+    <element name="SendTestMailingButton" locator_type="name" locator_value="is_test" />
+    <element name="SendMailingButton" locator_type="css" locator_value=".sf_admin_action_send" />
+
+    <!--Member Source-->
+    <element name="MemberSourceNameBox" locator_type="id" locator_value="member_source_name" />
+    <element name="MemberSourceSaveButton" locator_type="name" locator_value="save_and_list" />
+
+    <!--Background Takover-->
+    <element name="BGCampaignDropDown" locator_type="id" locator_value="background_takeover_ad_campaign_id"/>
+    <element name="BGColorTextBox" locator_type="id" locator_value="background_takeover_bgcolor"/>
+    <element name="BGLeftImageTextBox" locator_type="id" locator_value="background_takeover_left_image"/>
+    <element name="BGLeftWidthTextBox" locator_type="id" locator_value="background_takeover_left_image_width"/>
+    <element name="BGLeftHeightTextBox" locator_type="id" locator_value="background_takeover_left_image_height"/>
+    <element name="BGLeftAltTextBox" locator_type="id" locator_value="background_takeover_left_image_alt_text"/>
+    <element name="BGRightImageTextBox" locator_type="id" locator_value="background_takeover_right_image"/>
+    <element name="BGRightWidthTextBox" locator_type="id" locator_value="background_takeover_right_image_width"/>
+    <element name="BGRightHeightTextBox" locator_type="id" locator_value="background_takeover_right_image_height"/>
+    <element name="BGRightAltTextBox" locator_type="id" locator_value="background_takeover_right_image_alt_text"/>
+    <element name="BGSaveButton" locator_type="name" locator_value="save"/>
+    <element name="BGSaveConfirmationText" locator_type="css" locator_value=".save-ok>h2"/>
+</elements>

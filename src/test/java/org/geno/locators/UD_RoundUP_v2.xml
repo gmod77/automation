@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="HeaderImage" locator_type="xpath" locator_value="html/body/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table[1]/tbody/tr[1]/td/table/tbody/tr[1]/td/img" />
+    <element name="TowerAd" locator_type="xpath" locator_value="html/body/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr[3]/td/div/table/tbody/tr[2]/td[2]/a/img" />
+    <element name="Title1" locator_type="xpath" locator_value="html/body/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td/div[2]" />
+    <element name="Heading1" locator_type="xpath" locator_value="html/body/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[1]/table/tbody/tr[5]/td/table/tbody/tr/td[3]/table/tbody/tr[1]/td" />
+    <element name="SubHeader1" locator_type="xpath" locator_value="html/body/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[1]/table/tbody/tr[5]/td/table/tbody/tr/td[3]/table/tbody/tr[2]/td" />
+    <element name="Blurb1" locator_type="xpath" locator_value="html/body/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[1]/table/tbody/tr[5]/td/table/tbody/tr/td[3]/table/tbody/tr[4]/td" />
+    <element name="FourOneOne1" locator_type="xpath" locator_value="html/body/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[1]/table/tbody/tr[5]/td/table/tbody/tr/td[3]/table/tbody/tr[6]/td" />
+    <element name="ThumbImage1" locator_type="xpath" locator_value="html/body/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[1]/table/tbody/tr[5]/td/table/tbody/tr/td[1]/img" />
+</elements>

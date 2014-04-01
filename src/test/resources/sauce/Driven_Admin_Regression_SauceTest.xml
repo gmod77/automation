@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Admin Smoke Test" parallel="tests" thread-count="5" verbose="10">
+<!--<suite name="Admin Smoke Test" verbose="10">-->
+    <test name="Driven_Admin_StandardA_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_Admin_StandardA_PostTest" />
+        </classes>
+    </test>
+
+    <test name="Driven_Admin_TemplateB_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_Admin_TemplateB_PostTest" />
+        </classes>
+    </test>
+
+    <test name="Driven_Admin_StandardAB_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_Admin_StandardAB_PostTest" />
+        </classes>
+    </test>
+
+    <test name="Driven_Admin_PosterSolidColor_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_Admin_PosterSolidColor_PostTest" />
+        </classes>
+    </test>
+
+    <test name="Driven_Admin_Poster_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_Admin_Poster_PostTest" />
+        </classes>
+    </test>
+
+    <test name="Driven_Admin_Video_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_Admin_Video_PostTest" />
+        </classes>
+    </test>
+
+    <test name="Driven_Admin_Versus_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_Admin_Versus_PostTest" />
+        </classes>
+    </test>
+
+    <test name="Driven_Admin_Hero_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_Admin_Hero_PostTest" />
+        </classes>
+    </test>
+
+    <test name="Driven_Admin_Gallery_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_Admin_Gallery_PostTest" />
+        </classes>
+    </test>
+
+    <test name="Driven_Admin_Bulgari_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_Admin_Bulgari_PostTest" />
+        </classes>
+    </test>
+
+    <test name="Driven_Admin_GiftGuide_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_Admin_GiftGuide_PostTest" />
+        </classes>
+    </test>
+
+</suite>
+

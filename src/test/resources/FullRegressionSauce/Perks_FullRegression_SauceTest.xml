@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Frontend Regression Tests" verbose="10" parallel="tests" thread-count="10" >
+    <test name="Perks FrontEnd Regression">
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_RegressionTest" />
+        </classes>
+    </test>
+
+    <test name="Perks Purchase Regression: National Simple">
+        <parameter name="city" value="national"/>
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_PurchaseTest">
+                <methods>
+                    <include name="simplePerkPurchase"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="Perks Purchase Regression: National Downloadable">
+        <parameter name="city" value="national"/>
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_PurchaseTest">
+                <methods>
+                    <include name="downloadablePerkPurchase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Perks Purchase Regression: National Group Perk">
+        <parameter name="city" value="national"/>
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_PurchaseTest">
+                <methods>
+                    <include name="groupedPerkPurchase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Perks Edit Billing and Shipping Info">
+        <parameter name="city" value="national"/>
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_PurchaseTest">
+                <methods>
+                    <include name="editShippingInfo"/>
+                    <include name="editBillingInfo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

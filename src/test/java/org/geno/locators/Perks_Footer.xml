@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <HomePage>
+        <element name="AboutUs" locator_type="xpath" locator_value=".container>.right>ul:nth-child(1)>li:nth-child(1)>a" />
+        <element name="Archives" locator_type="xpath" locator_value=".container>.right>ul:nth-child(1)>li:nth-child(2)>a" />
+        <element name="MyAccount" locator_type="xpath" locator_value=".container>.right>ul:nth-child(1)>li:nth-child(3)>a" />
+        <element name="Contact" locator_type="xpath" locator_value=".container>.right>ul:nth-child(1)>li:nth-child(4)>a" />
+        <element name="Jobs" locator_type="xpath" locator_value=".container>.right>ul:nth-child(1)>li:nth-child(5)>a" />
+        <element name="Advertise" locator_type="xpath" locator_value=".container>.right>ul:nth-child(1)>li:nth-child(6)>a" />
+        <element name="Tips" locator_type="xpath" locator_value=".container>.right>ul:nth-child(1)>li:nth-child(7)>a" />
+        <element name="Help" locator_type="xpath" locator_value=".container>.right>ul:nth-child(1)>li:nth-child(8)>a" />
+
+        <element name="EmailIssues" locator_type="xpath" locator_value=".container>.right>ul:nth-child(2)>li:nth-child(1)>a" />
+        <element name="PrivacyPolicy" locator_type="xpath" locator_value=".container>.right>ul:nth-child(2)>li:nth-child(2)>a" />
+        <element name="UserAgreement" locator_type="xpath" locator_value=".container>.right>ul:nth-child(2)>li:nth-child(3)>a" />
+        <element name="Unsubscribe" locator_type="xpath" locator_value=".container>.right>ul:nth-child(2)>li:nth-child(4)>a" />
+        <element name="EditorialPolicy" locator_type="xpath" locator_value=".container>.right>ul:nth-child(2)>li:nth-child(5)>a" />
+
+        <element name="Boston" locator_type="xpath" locator_value=".level0.nav-5>a>span" />
+        <element name="Chicago" locator_type="xpath" locator_value=".level0.nav-3>a>span" />
+        <element name="DC" locator_type="xpath" locator_value=".level0.nav-6>a>span" />
+        <element name="LosAngeles" locator_type="xpath" locator_value=".level0.nav-7.last>a>span" />
+        <element name="Miami" locator_type="xpath" locator_value=".level0.nav-4>a>span" />
+        <element name="National" locator_type="xpath" locator_value=".level0.nav-1>a>span" />
+        <element name="NewYork" locator_type="xpath" locator_value=".level0.nav-2>a>span" />
+    </HomePage>
+</elements>

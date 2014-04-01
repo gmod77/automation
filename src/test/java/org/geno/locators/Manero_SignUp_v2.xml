@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <Step1>
+        <element name="Email" locator_type="id" locator_value="email"/>
+        <element name="SelectEditionsChicago" locator_type="xpath" locator_value="//.//*[@id='sign_up_editions']/ul/li[2]/div"/>
+        <element name="SelectEditionsMiami" locator_type="xpath" locator_value="//.//*[@id='sign_up_editions']/ul/li[3]/div"/>
+        <element name="SelectEditionsNewYork" locator_type="xpath" locator_value="//.//*[@id='sign_up_editions']/ul/li[4]/div"/>
+        <element name="SelectEditionsLosAngeles" locator_type="xpath" locator_value="//.//*[@id='sign_up_editions']/ul/li[5]/div"/>
+        <element name="SelectEditionsNational" locator_type="xpath" locator_value="//.//*[@id='sign_up_editions']/ul/li/div"/>
+        <element name="SelectEditionsHouston" locator_type="xpath" locator_value="//.//*[@id='sign_up_editions']/ul/li[6]/div"/>
+        <element name="Join" locator_type="xpath" locator_value="//.//*[@id='myaccount_signup']/input"/>
+        <element name="ErrorMessage" locator_type="xpath" locator_value="//.//*[@id='sign_up_box']/div[2]"/>
+    </Step1>
+    <Step2>
+        <element name="EnterPassword" locator_type="id" locator_value="password"/>
+        <element name="ConfirmPassword" locator_type="id" locator_value="confirm_password"/>
+        <element name="EnterFirstName" locator_type="id" locator_value="first_name"/>
+        <element name="EnterLastName" locator_type="id" locator_value="last_name"/>
+        <element name="SelectGender" locator_type="id" locator_value="gender"/>
+        <element name="EnterZipCode" locator_type="id" locator_value="zip"/>
+        <element name="EnterBirthday" locator_type="id" locator_value="birthdate"/>
+        <element name="ClickSubmit" locator_type="xpath" locator_value="//.//*[@id='myaccount_demographics']/input"/>
+    </Step2>
+    <Step3>
+        <element name="InviteEmail1" locator_type="id" locator_value="invite_email1"/>
+        <element name="InviteEmail2" locator_type="id" locator_value="invite_email2"/>
+        <element name="InviteEmail3" locator_type="id" locator_value="invite_email3"/>
+        <element name="InviteEmail4" locator_type="id" locator_value="invite_email4"/>
+        <element name="InviteEmail5" locator_type="id" locator_value="invite_email5"/>
+        <element name="ClickInvite" locator_type="xpath" locator_value="//.//*[@id='sign_up_invites']/div[2]/form/input[3]"/>
+        <element name="ClickSkip" locator_type="xpath" locator_value="//.//*[@id='sign_up_invites']/div[3]/div[1]/a"/>
+        <element name="ErrorMessage" locator_type="xpath" locator_value="//.//*[@id='sign_up_invites']/div[2]/div"/>
+    </Step3>
+    <Step4>
+        <element name="FinalConfirmationModal" locator_type="xpath" locator_value="//.//*[@id='sign_up_box']"/>
+        <element name="FBFriendUs" locator_type="id" locator_value="fb_button"/>
+        <element name="TwitterFollowUs" locator_type="id" locator_value="twitter_button"/>
+        <element name="PrivacyPolicyLink" locator_type="xpath" locator_value="//.//*[@id='box_footer']/ul/a[1]"/>
+        <element name="UserAgreementLink" locator_type="xpath" locator_value="//.//*[@id='box_footer']/ul/a[2]"/>
+        <element name="CloseButton" locator_type="id" locator_value="signup-close"/>
+    </Step4>
+</elements>

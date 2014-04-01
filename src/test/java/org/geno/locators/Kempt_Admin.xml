@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="ArticleTitleBox" locator_type="id" locator_value="title" />
+    <element name="PermaLink" locator_type="id" locator_value="sample-permalink" />
+    <element name="ArticleMainCopyBox" locator_type="classname" locator_value="wp-editor-area" />
+    <element name="TextTab" locator_type="id" locator_value="content-html" />
+    <element name="ArticleMainCopyLinkButton" locator_type="id" locator_value="qt_content_link" />
+    <element name="ArticleMainCopyLinkModalTitle" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div.ui-dialog div.ui-dialog-titlebar span#ui-id-1.ui-dialog-title" />
+    <element name="ArticleMainCopyLinkModalURLBox" locator_type="id" locator_value="url-field" />
+    <element name="ArticleMainCopyLinkModalTitleBox" locator_type="id" locator_value="link-title-field" />
+    <element name="ArticleMainCopyLinkModalOLINWCheck" locator_type="id" locator_value="link-target-checkbox" />
+    <element name="ArticleMainCopyLinkModalAddLinkButton" locator_type="id" locator_value="wp-link-submit" />
+    <element name="CategoryAcrossTheSeaSelect" locator_type="id" locator_value="in-category-837" />
+    <element name="TagBox" locator_type="id" locator_value="new-tag-post_tag" />
+    <element name="TagAddButton" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap form#post div#poststuff div#post-body.metabox-holder div#postbox-container-1.postbox-container div#side-sortables.meta-box-sortables div#tagsdiv-post_tag.postbox div.inside div#post_tag.tagsdiv div.jaxtag div.ajaxtag p input.button" />
+    <element name="AddMediaButton" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap form#post div#poststuff div#post-body.metabox-holder div#post-body-content div#postdivrich.postarea div#wp-content-wrap.wp-core-ui div#wp-content-editor-tools.wp-editor-tools div#wp-content-media-buttons.wp-media-buttons a.button" />
+    <element name="AddMediaDialogTitle" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#__wp-uploader-id-2.supports-drag-drop div.media-modal div.media-modal-content div#__wp-uploader-id-0.media-frame div.media-frame-title h1" />
+    <element name="MediaModalIcon" locator_type="css" locator_value=".check>.media-modal-icon" />
+    <element name="ImageThumbnail" locator_type="css" locator_value=".thumbnail" />
+    <element name="RemoveFeaturedImageLink" locator_type="id" locator_value="remove-post-thumbnail" />
+    <element name="ArticleImageNameBox" locator_type="id" locator_value="plupload-browse-button" />
+    <element name="ImageNameLabel" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#__wp-uploader-id-2.supports-drag-drop div.media-modal div.media-modal-content div#__wp-uploader-id-0.media-frame div.media-frame-content div.attachments-browser div.media-sidebar div.attachment-details div.attachment-info div.details div.filename" />
+    <element name="InsertIntoPostButton" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#__wp-uploader-id-2.supports-drag-drop div.media-modal div.media-modal-content div#__wp-uploader-id-0.media-frame div.media-frame-toolbar div.media-toolbar div.media-toolbar-primary a.button" />
+    <element name="AddCommentLink" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap form#post div#poststuff div#post-body.metabox-holder div#postbox-container-2.postbox-container div#normal-sortables.meta-box-sortables div#commentsdiv.postbox div.inside p#add-new-comment.hide-if-no-js a" />
+    <element name="AddCommentBox" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap form#post div#poststuff div#post-body.metabox-holder div#postbox-container-2.postbox-container div#normal-sortables.meta-box-sortables div#commentsdiv.postbox div.inside table.widefat tbody#the-comment-list tr#replyrow td.colspanchange div#replycontainer div#wp-replycontent-wrap.wp-core-ui div#wp-replycontent-editor-container.wp-editor-container textarea#replycontent.wp-editor-area" />
+    <element name="AddCommentButton" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap form#post div#poststuff div#post-body.metabox-holder div#postbox-container-2.postbox-container div#normal-sortables.meta-box-sortables div#commentsdiv.postbox div.inside table.widefat tbody#the-comment-list tr#replyrow td.colspanchange p#replysubmit.submit a.save span#addbtn" />
+    <element name="SaveDraftButton" locator_type="id" locator_value="save-post" />
+    <element name="PublishButton" locator_type="id" locator_value="publish" />
+    <element name="ViewPostButton" locator_type="id" locator_value="view-post-btn" />
+</elements>

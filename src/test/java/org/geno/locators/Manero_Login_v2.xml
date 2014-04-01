@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <Signon>
+        <element name="EmailAddress" locator_type="id" locator_value="email_address"/>
+        <element name="Password" locator_type="id" locator_value="password"/>
+        <element name="Login" locator_type="xpath" locator_value=".//*[@id='myaccount_login']/input"/>
+        <element name="ResetPasswordLink" locator_type="xpath" locator_value=".//*[@id='login']/div[2]/a"/>
+    </Signon>
+    <ResetPassword>
+        <element name="ResetEmail" locator_type="xpath" locator_value=".//*[@id='email']"/>
+        <element name="Send" locator_type="xpath" locator_value=".//*[@id='myaccount_forgot_password']/div[1]/input"/>
+        <element name="Cancel" locator_type="xpath" locator_value=".//*[@id='myaccount_forgot_password']/div[1]/a"/>
+    </ResetPassword>
+    <Settings>
+        <element name="EditSettings" locator_type="xpath" locator_value=".//*[@id='account_header']/a"/>
+        <element name="EditEmail" locator_type="xpath" locator_value=".//*[@id='email']"/>
+        <element name="EditPassword" locator_type="xpath" locator_value=".//*[@id='password']"/>
+        <element name="ConfirmPassword" locator_type="xpath" locator_value=".//*[@id='confirm_password']"/>
+        <element name="DefaultCity" locator_type="xpath" locator_value=".//*[@id='myaccount_edit']/ul/li[3]/div"/>
+        <element name="FirstName" locator_type="xpath" locator_value=".//*[@id='first_name']"/>
+        <element name="LastName" locator_type="xpath" locator_value=".//*[@id='last_name']"/>
+        <element name="Gender" locator_type="xpath" locator_value=".//*[@id='myaccount_edit']/ul/li[6]/div"/>
+        <element name="ZipCode" locator_type="xpath" locator_value=".//*[@id='zip']"/>
+        <element name="Birthdate" locator_type="xpath" locator_value=".//*[@id='birthdate']"/>
+        <element name="EditionChicago" locator_type="xpath" locator_value=".//*[@id='myaccount_edit']/div[2]/div[1]/div"/>
+        <element name="EditionMiami" locator_type="xpath" locator_value=".//*[@id='myaccount_edit']/div[2]/div[2]/div"/>
+        <element name="EditionNewYork" locator_type="xpath" locator_value=".//*[@id='myaccount_edit']/div[2]/div[3]/div"/>
+        <element name="EditionLA" locator_type="xpath" locator_value=".//*[@id='myaccount_edit']/div[2]/div[4]/div"/>
+        <element name="EditionNational" locator_type="xpath" locator_value=".//*[@id='myaccount_edit']/div[2]/div[5]/div"/>
+        <element name="EditionHouston" locator_type="xpath" locator_value=".//*[@id='myaccount_edit']/div[2]/div[6]/div"/>
+        <element name="Update" locator_type="xpath" locator_value=".//*[@id='myaccount_edit']/div[3]/input"/>
+        <element name="MessageBox" locator_type="xpath" locator_value=".//*[@id='edit-settings']/div[2]"/>
+        <element name="Close" locator_type="xpath" locator_value="html/body/div[3]/a"/>
+    </Settings>
+</elements>

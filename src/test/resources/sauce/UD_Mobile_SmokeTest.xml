@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SingleTest" verbose="10">
+    <test name="Registration Test">
+        <classes>
+            <class name="org.geno.tests.sauce.saucetesting.UD_Mobile_SmokeTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Admin Smoke Test" parallel="tests" thread-count="12" verbose="10">
+    <test name="UD_Admin_3column_Black_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnTest">
+                <methods>
+                    <include name="createThreeColumnBlackBGTakeoverArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_3column_White_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnTest">
+                <methods>
+                    <include name="createThreeColumnWhiteBGTakeoverArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_WeekenderRegular">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_WeekenderTest">
+                <methods>
+                    <include name="createWeekenderArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Weekender_Black_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_WeekenderTest">
+                <methods>
+                    <include name="createWeekenderBlackBGTakeoverArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Weekender_White_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_WeekenderTest">
+                <methods>
+                    <include name="createWeekenderWhiteBGTakeoverArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_RoundUpRegular">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Create_RoundUPTest">
+                <methods>
+                    <include name="RoundUPAdminCreate" />
+                    <include name="checkCreatedRoundUp" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_RoundUp_Black_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Create_RoundUPTest">
+                <methods>
+                    <include name="roundUpBlackBGTakeOverCreate" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_RoundUp_White_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Create_RoundUPTest">
+                <methods>
+                    <include name="roundUpWhiteBGTakeOverCreate" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_3column_DedicatedWideResponsive">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnResponsiveTest">
+                <methods>
+                    <include name="createThreeColumnDedicatedResponsiveWideArticle" />
+                    <include name="checkCreatedThreeColumnArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_3column_DedicatedNarrowResponsive">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnResponsiveTest">
+                <methods>
+                    <include name="createThreeColumnDedicatedResponsiveNarrowArticle" />
+                    <include name="checkCreatedThreeColumnArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_3column_WideResponsive">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnResponsiveTest">
+                <methods>
+                    <include name="createThreeColumnResponsiveWideArticle" />
+                    <include name="checkCreatedThreeColumnArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_3column_NarrowResponsive">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnResponsiveTest">
+                <methods>
+                    <include name="createThreeColumnResponsiveNarrowArticle" />
+                    <include name="checkCreatedThreeColumnArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <!--This test can't be run until the chrome driver gets findElements fixed
+    or we fix the pdf upload check on our side-->
+    <!--<test name="UD_Admin_PMT">-->
+    <!--<parameter name="os" value="Windows 2003"/>-->
+    <!--<parameter name="browser" value="chrome"/>-->
+    <!--<parameter name="browserVersion" value="21.0.1180.89"/>-->
+    <!--<classes>-->
+    <!--<class name="org.geno.tests.sauce.UD_Admin_Create_PMTTest" />-->
+    <!--</classes>-->
+    <!--</test>-->
+
+</suite>
+

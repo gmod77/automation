@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Frontend Smoke Test" parallel="tests" thread-count="8" verbose="10">
+    <test name="UD Registration and Email Verification Test">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_RegistrationFlowTest">
+                <methods>
+                    <include name="UDregisterAndEditSettings" />
+                    <include name="ResetUDAccountPW" />
+                    <include name="verifyUDEmailsReceived" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD Registration NonModal Window and Email Verification">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_RegistrationFlowTest">
+                <methods>
+                    <include name="UDregisterAndEditSettings" />
+                    <include name="verifyUDEmailsReceived" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD Unsubscribe">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_UnSubscribeEmailTest" />
+        </classes>
+    </test>
+
+    <test name="UD Article Share Logged Out">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_ShareArticleTest">
+                <methods>
+                    <include name="UDshareArticleLoggedOut" />
+                    <include name="checkSharedArticleLoggedOut" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD Article Share Logged In">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_ShareArticleTest">
+                <methods>
+                    <include name="UDshareArticleLoggedIn" />
+                    <include name="checkSharedArticleLoggedIn" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD Article Save">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_SaveArticleTest"/>
+        </classes>
+    </test>
+
+    <test name="UD NYC Homepage Checks Logged Out">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_HomePageChecksTest">
+                <methods>
+                    <include name="cityHomePageChecksLoggedOut" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD NYC Homepage Checks Logged In">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_HomePageChecksTest">
+                <methods>
+                    <include name="cityHomePageChecksLoggedIn" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD National Homepage Checks Logged In">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_HomePageChecksTest">
+                <methods>
+                    <include name="nationalHomePageChecksLoggedOut" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_3column_Black_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnTest">
+                <methods>
+                    <include name="createThreeColumnBlackBGTakeoverArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_3column_White_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnTest">
+                <methods>
+                    <include name="createThreeColumnWhiteBGTakeoverArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_WeekenderRegular">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_WeekenderTest">
+                <methods>
+                    <include name="createWeekenderArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Weekender_Black_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_WeekenderTest">
+                <methods>
+                    <include name="createWeekenderBlackBGTakeoverArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Weekender_White_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_WeekenderTest">
+                <methods>
+                    <include name="createWeekenderWhiteBGTakeoverArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_RoundUpRegular">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Create_RoundUPTest">
+                <methods>
+                    <include name="RoundUPAdminCreate" />
+                    <include name="checkCreatedRoundUp" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_RoundUp_Black_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Create_RoundUPTest">
+                <methods>
+                    <include name="roundUpBlackBGTakeOverCreate" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_RoundUp_White_BGTakeover">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Create_RoundUPTest">
+                <methods>
+                    <include name="roundUpWhiteBGTakeOverCreate" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_3column_DedicatedWideResponsive">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnResponsiveTest">
+                <methods>
+                    <include name="createThreeColumnDedicatedResponsiveWideArticle" />
+                    <include name="checkCreatedThreeColumnArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_3column_DedicatedNarrowResponsive">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnResponsiveTest">
+                <methods>
+                    <include name="createThreeColumnDedicatedResponsiveNarrowArticle" />
+                    <include name="checkCreatedThreeColumnArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_3column_WideResponsive">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnResponsiveTest">
+                <methods>
+                    <include name="createThreeColumnResponsiveWideArticle" />
+                    <include name="checkCreatedThreeColumnArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="UD_Admin_Create_3column_NarrowResponsive">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnResponsiveTest">
+                <methods>
+                    <include name="createThreeColumnResponsiveNarrowArticle" />
+                    <include name="checkCreatedThreeColumnArticle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

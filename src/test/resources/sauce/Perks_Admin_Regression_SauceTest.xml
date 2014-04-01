@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Admin Perk Tests" verbose="10">
+    <test name="Create Perks">
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_Admin_CreatePerk" />
+        </classes>
+    </test>
+
+</suite>
+

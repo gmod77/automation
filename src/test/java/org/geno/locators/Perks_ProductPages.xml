@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="EmailYourFriendBox" locator_type="name" locator_value="invite_email" />
+    <element name="EmailYourFriendSendButton" locator_type="css" locator_value="#perk-a-friend-send"/>
+    <element name="PerkAFriendConfirmationText" locator_type="css" locator_value=".invite-confirmation" />
+</elements>

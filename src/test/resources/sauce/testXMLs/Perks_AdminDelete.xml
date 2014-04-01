@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SingleTest" verbose="10">
+    <test name="Perks Cleanup">
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_Admin_PerkMaintenance" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="ManeroLogo" locator_type="xpath" locator_value=".//*[@id='header']/div[2]/h1/a"/>
+    <element name="FBLike" locator_type="xpath" locator_value=".//*[@id='uspeax52']/div/div[1]/div/button"/>
+    <element name="FBLikeCounter" locator_type="xpath" locator_value=".//*[@id='uspeax51']/tbody/tr/td[2]/div/div[1]"/>
+    <element name="TweetButton" locator_type="xpath" locator_value=".//*[@id='b']"/>
+    <element name="Cultura" locator_type="xpath" locator_value=".//*[@id='navbar_categories']/ul/li[1]/a"/>
+    <element name="Musica" locator_type="xpath" locator_value=".//*[@id='navbar_categories']/ul/li[2]/a"/>
+    <element name="Sports" locator_type="xpath" locator_value=".//*[@id='navbar_categories']/ul/li[3]/a"/>
+    <element name="Style" locator_type="xpath" locator_value=".//*[@id='navbar_categories']/ul/li[4]/a"/>
+    <element name="Entertainment" locator_type="xpath" locator_value=".//*[@id='navbar_categories']/ul/li[5]/a"/>
+    <element name="Gadgets" locator_type="xpath" locator_value=".//*[@id='navbar_categories']/ul/li[6]/a"/>
+    <element name="Travel" locator_type="xpath" locator_value=".//*[@id='navbar_categories']/ul/li[7]/a"/>
+    <element name="NightLife" locator_type="xpath" locator_value=".//*[@id='navbar_categories']/ul/li[8]/a"/>
+    <element name="Carousel" locator_type="xpath" locator_value=".//*[@id='modules']/div[2]"/>
+    <element name="ShortList" locator_type="xpath" locator_value=".//*[@id='modules']/div[3]/div[2]"/>
+</elements>

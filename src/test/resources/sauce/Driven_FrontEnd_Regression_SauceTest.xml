@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Admin Smoke Test" parallel="tests" thread-count="4" verbose="10">
+    <!--<suite name="Admin Smoke Test" verbose="10">-->
+
+    <test name="Driven_RegistrationFlowTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Driven_RegistrationFlowTest" />
+        </classes>
+    </test>
+
+</suite>
+

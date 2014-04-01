@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="YourCartTitle" locator_type="css" locator_value=".page-title.title-buttons>h1"/>
+    <element name="ItemName" locator_type="css" locator_value=".name"/>
+    <element name="ItemOffer" locator_type="css" locator_value=".offer"/>
+    <element name="DeliveryType" locator_type="css" locator_value="#shopping-cart-table tbody .delivery"/>
+    <element name="qtyDropDown" locator_type="css" locator_value=".select.basicSelect.textInput.formSelectUpdate.selectBox"/>
+    <element name="cartPrice" locator_type="css" locator_value=".price>.cart-price>.price"/>
+    <element name="itemSubTotal" locator_type="css" locator_value=".a-right>.cart-price>.price"/>
+    <element name="removeButton" locator_type="css" locator_value=".btn-remove"/>
+
+    <element name="couponCodeBox" locator_type="css" locator_value="#coupon_code" />
+    <element name="applyLink" locator_type="css" locator_value=".formSubmitLink" />
+
+
+    <element name="grandTotal" locator_type="css" locator_value="#shopping-cart-totals-table tfoot tr td.a-right strong>.price" />
+
+    <element name="continueShoppingButton" locator_type="css" locator_value=".greyBtnMedium.directLink>span" />
+    <element name="checkoutButton" locator_type="css" locator_value=".redBtn.directLink>span" />
+
+    <!-- First Time Purchase -->
+    <!-- Personal Information -->
+    <element name="firstName" locator_type="css" locator_value="#customer_firstname" />
+    <element name="lastName" locator_type="css" locator_value="#customer_lastname" />
+
+    <!-- Payment Information -->
+    <element name="nameOnCardBox" locator_type="css" locator_value="#cc_cc_owner" />
+    <element name="creditCardTypeDropdown" locator_type="css" locator_value=".selectHolder.wide305>div" />
+    <element name="creditCardList" locator_type="css" locator_value=".validate-cc-type-select>.scroll-container>.scroll-content>div" />
+    <element name="cardNumberBox" locator_type="css" locator_value="#cc_cc_number" />
+    <element name="expMonthDropdown" locator_type="css" locator_value=".selectHolder.medium154>.month" />
+    <element name="expMonthList" locator_type="css" locator_value=".validate-cc-exp>.scroll-container>.scroll-content>div" />
+    <element name="expYearDropdown" locator_type="css" locator_value=".selectHolder.medium144>div" />
+    <element name="expYearList" locator_type="css" locator_value=".year>.scroll-container>.scroll-content>div" />
+
+    <!-- Billing Information -->
+    <element name="billFirstNameBox" locator_type="css" locator_value="#billing_firstname" />
+    <element name="billLastNameBox" locator_type="css" locator_value="#billing_lastname" />
+    <element name="billStreetAddressBox" locator_type="css" locator_value="#billing_street_1" />
+    <element name="billStreetAddress2Box" locator_type="css" locator_value="#billing_street_2" />
+    <element name="billCityBox" locator_type="css" locator_value="#billing_city" />
+    <element name="billStateDropdown" locator_type="css" locator_value=".selectHolder.medium154>.state" />
+    <element name="billStateList" locator_type="css" locator_value=".state>.scroll-container>.scroll-content>div" />
+    <element name="billZipcodeBox" locator_type="css" locator_value="#billing_zip" />
+    <element name="billPhoneNumberBox" locator_type="css" locator_value="#billing_telephone" />
+
+    <!-- Shipping Information -->
+    <element name="shipSameAsBillCheckbox" locator_type="css" locator_value=".same-as-billing>input" />
+    <element name="shipFirstNameBox" locator_type="css" locator_value="#shipping_firstname" />
+    <element name="shipLastNameBox" locator_type="css" locator_value="#shipping_lastname" />
+    <element name="shipStreetAddressBox" locator_type="css" locator_value="#shipping_street_1" />
+    <element name="shipStreetAddress2Box" locator_type="css" locator_value="#shipping_street_2" />
+    <element name="shipCityBox" locator_type="css" locator_value="#shipping_city" />
+    <element name="shipStateDropdown" locator_type="css" locator_value=".selectHolder.medium154>.state" />
+    <element name="shipStateList" locator_type="xpath" locator_value="html/body/div[3]/div/div[2]/div/div/form/div[8]/div/div[2]/div[1]/div" />
+    <element name="shipZipcodeBox" locator_type="css" locator_value="#shipping_zip" />
+    <element name="shipPhoneNumberBox" locator_type="css" locator_value="#shipping_telephone" />
+
+    <element name="continueButton" locator_type="css" locator_value=".button.greyBtnBig>span" />
+
+<!-- Final Order Submission Page -->
+    <!-- What You're Getting - Everything on the left pane -->
+    <!-- Below 4 items are list objects -->
+    <element name="finalItemList" locator_type="css" locator_value=".row.item>.name" />
+    <element name="finalItemQtyList" locator_type="css" locator_value=".row.item>.qty" />
+    <element name="finalItemPriceList" locator_type="css" locator_value=".row.item>.price.calc-price>span" />
+    <element name="finalItemSubtotalList" locator_type="css" locator_value=".row.item>.subtotal.calc-subtotal>span" />
+
+    <element name="finalOrderSubtotalAmount" locator_type="css" locator_value=".orderSummary>.cost:nth-child(1)>.price" />
+    <element name="finalOrderShippingAmount" locator_type="css" locator_value=".orderSummary>.cost:nth-child(2)>.price" />
+    <element name="finalOrderTaxAmount" locator_type="css" locator_value=".orderSummary>.cost:nth-child(3)>.price" />
+    <element name="finalOrderTotalAmount" locator_type="css" locator_value=".orderSummary>.subtotal>.price" />
+
+    <element name="checkoutContinueShoppingButton" locator_type="css" locator_value=".greyBtnMedium>span" />
+    <element name="LeftSubmitOrderButton" locator_type="css" locator_value=".redBtn.cancelBtn.submitBtn>span" />
+    <element name="editCartLink" locator_type="css" locator_value=".left>a" />
+
+    <!-- Order Summary - Everything in the right pane -->
+    <element name="summaryOrderSubtotalAmount" locator_type="css" locator_value=".right.calc-total-before.calc-add>.price" />
+    <element name="summaryOrderShippingAmount" locator_type="css" locator_value=".right.calc-shipping.calc-add>.price" />
+    <element name="summaryOrderTaxAmount" locator_type="css" locator_value=".right.calc-tax.calc-add>.price" />
+    <element name="summaryOrderTotalAmount" locator_type="css" locator_value=".emphasis.calc-total-after>.price" />
+
+    <element name="RightSubmitOrderButton" locator_type="css" locator_value=".redBtn.submitBtn>span" />
+
+    <element name="shipToAddress" locator_type="css" locator_value=".summary>div:nth-child(5)>p:nth-child(2)" />
+    <element name="changeShippingButton" locator_type="css" locator_value=".summary>div:nth-child(5)>a>span" />
+
+    <element name="billToAddress" locator_type="css" locator_value=".summary>div:nth-child(6)>p:nth-child(1)" />
+    <element name="changeBillingButton" locator_type="css" locator_value=".summary>div:nth-child(6)>a:nth-child(2)>span" />
+
+    <element name="creditType" locator_type="css" locator_value=".summary>div:nth-child(6)>dl tr:nth-child(1)>td" />
+    <element name="changeCCButton" locator_type="css" locator_value=".ship-to.last>.greyBtnBig.cancelBtn.useOverlay:nth-child(7)>span" />
+
+    <element name="authorizeSealImage" locator_type="css" locator_value=".AuthorizeNetSeal>a" />
+
+<!-- Receipt Page -->
+    <element name="thePerkIsYoursText" locator_type="css" locator_value=".center-block>h1" />
+
+    <!-- What You're Getting - Everything on the left pane -->
+    <!-- Item & Subtotal Selectors are the same as Summary Page -->
+
+    <element name="myPerksButton" locator_type="css" locator_value="#checkout-continue>span" />
+
+    <!-- Order Summary - Everything in the right pane -->
+    <!-- Order Subtotal, Shipping, Tax, & Total same as Summary Page -->
+
+    <element name="receiptShipToAddress" locator_type="css" locator_value=".ship-to.first>p:nth-child(2)" />
+    <element name="receiptCreditType" locator_type="css" locator_value=".info-table>tbody>tr:nth-child(1)>td" />
+    <element name="ccProcessedAmount" locator_type="css" locator_value=".info-table>tbody>tr:nth-child(3)>td" />
+
+</elements>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="DrivenLogo" locator_type="id" locator_value="logo"/>
+    <element name="Home" locator_type="linktext" locator_value="Home"/>
+    <element name="Search" locator_type="linktext" locator_value="Search"/>
+    <element name="Go" locator_type="id" locator_value="searchinput"/>
+    <element name="Archive" locator_type="linktext" locator_value="Archive"/>
+    <element name="Previous" locator_type="linktext" locator_value="Previous"/>
+    <element name="Next" locator_type="linktext" locator_value="Next"/>
+    <element name="About" locator_type="linktext" locator_value="About"/>
+    <element name="Signup" locator_type="id" locator_value="signup"/>
+</elements>

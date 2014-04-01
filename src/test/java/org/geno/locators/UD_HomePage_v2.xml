@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="UDLogo" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[1]/img" />
+    <element name="ClickableCopy" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[1]/a/img" />
+    <element name="SignUpSeal" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[1]/div/a/img"/>
+    <element name="AtlantaLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[1]/img" />
+    <element name="BostonLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[2]/img" />
+    <element name="ChicagoLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[3]/img" />
+    <element name="DallasLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[4]/img" />
+    <element name="WashingtonDCLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[5]/img" />
+    <element name="DrivenLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[6]/img" />
+    <element name="JetsetLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[7]/img" />
+    <element name="LasVegasLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[8]/img" />
+    <element name="LosAngelesLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[9]/img" />
+    <element name="MiamiLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[10]/img" />
+    <element name="NationalLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[11]/img" />
+    <element name="NewYorkLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[12]/img" />
+    <element name="SanFranciscoLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[13]/img" />
+    <element name="SkiBoardLink" locator_type="xpath" locator_value="html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[14]/img" />
+</elements>

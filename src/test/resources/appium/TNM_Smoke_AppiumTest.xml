@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TheNextMove iPhone App Smoke Tests" verbose="10">
+
+    <parameter name="testLocation" />
+
+    <test name="TNM_Smoke">
+        <classes>
+            <class name="org.geno.tests.appium.TNM_SmokeTest_iOS" />
+        </classes>
+    </test>
+
+
+</suite>

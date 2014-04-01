@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+    <!--Top Header-->
+    <element name="UDTwitterLink" locator_type="css" locator_value=".twitter>a" />
+    <element name="UDFacebookLink" locator_type="css" locator_value=".facebook>a" />
+
+    <element name="genoLink" locator_type="css" locator_value=".geno>a" />
+    <element name="PerksLink" locator_type="css" locator_value=".perks>a" />
+    <element name="TheChroniclesLink" locator_type="css" locator_value=".the-chronicles>a" />
+    <element name="KemptLink" locator_type="css" locator_value=".kempt>a" />
+    <element name="DrivenLink" locator_type="css" locator_value=".driven>a" />
+
+    <element name="SignInHover" locator_type="css" locator_value=".trigger" />
+
+    <element name="SignUp" locator_type="css" locator_value=".sub.loggedout>ul>li:nth-child(2)>a" />
+    <element name="MemberLogIn" locator_type="css" locator_value=".sub.loggedout>ul>li:nth-child(1)>a" />
+
+    <element name="MyAccountHover" locator_type="css" locator_value=".sub.loggedin>.trigger" />
+    <element name="AccountSettings" locator_type="css" locator_value=".sub.loggedin>ul>li:nth-child(1)>a" />
+    <element name="Logout" locator_type="css" locator_value=".sub.loggedin>ul>li:nth-child(2)>a" />
+
+    <!--Middle Elements-->
+    <element name="UDHeaderLogo" locator_type="css" locator_value="#logoHolder>a>img" />
+
+    <element name="ChangeCity" locator_type="css" locator_value=".cityChanger>a>img" />
+    <element name="Atlanta" locator_type="css" locator_value="#submenu>ul>li:nth-child(1)>a" />
+    <element name="Boston" locator_type="css" locator_value="#submenu>ul>li:nth-child(2)>a" />
+    <element name="Chicago" locator_type="css" locator_value="#submenu>ul>li:nth-child(3)>a" />
+    <element name="Dallas" locator_type="css" locator_value="#submenu>ul>li:nth-child(4)>a" />
+    <element name="DC" locator_type="css" locator_value="#submenu>ul>li:nth-child(5)>a" />
+    <element name="Jetset" locator_type="css" locator_value="#submenu>ul>li:nth-child(6)>a" />
+    <element name="LasVegas" locator_type="css" locator_value="#submenu>ul>li:nth-child(7)>a" />
+    <element name="LosAngeles" locator_type="css" locator_value="#submenu>ul>li:nth-child(8)>a" />
+    <element name="Miami" locator_type="css" locator_value="#submenu>ul>li:nth-child(9)>a" />
+    <element name="National" locator_type="css" locator_value="#submenu>ul>li:nth-child(10)>a" />
+    <element name="NewYork" locator_type="css" locator_value="#submenu>ul>li:nth-child(11)>a" />
+    <element name="SanFrancisco" locator_type="css" locator_value="#submenu>ul>li:nth-child(12)>a" />
+    <element name="SkiBoard" locator_type="css" locator_value="#submenu>ul>li:nth-child(13)>a" />
+
+    <!--Sub Header-->
+    <element name="SearchBox" locator_type="css" locator_value="#search_field2" />
+    <element name="SearchBoxGoButton" locator_type="css" locator_value=".searchButton" />
+
+    <element name="NightlifeLink" locator_type="css" locator_value=".nightlifeN" />
+    <element name="FoodLink" locator_type="css" locator_value=".foodN" />
+    <element name="StyleLink" locator_type="css" locator_value=".styleN" />
+    <element name="GearLink" locator_type="css" locator_value=".gearN" />
+    <element name="LeisureLink" locator_type="css" locator_value=".leisureN" />
+
+    <element name="MobileLink" locator_type="css" locator_value=".mobile>a" />
+
+    <!-- Following links are valid for only National SubHeader-->
+    <element name="FoodDrinkLink" locator_type="css" locator_value=".fooddrinkN" />
+    <element name="EntertainmentLink" locator_type="css" locator_value=".entertainmentN" />
+    <element name="TravelLink" locator_type="css" locator_value=".travelN" />
+
+</elements>

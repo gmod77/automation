@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <login>
+        <element name="SigninEmail" locator_type="id" locator_value="loginEmail"/>
+        <element name="SigninPassword" locator_type="id" locator_value="flowPassword"/>
+        <element name="SignIn" locator_type="css" locator_value=".redBtn.signInBtn.directLink.formSubmitLink>span"/>
+    </login>
+    <forgotPassword>
+        <element name="ForgotPasswordLink" locator_type="css" locator_value=".smallLink.forgotPass.directLink"/>
+        <element name="ForgotEmail" locator_type="css" locator_value="#forgotEmail"/>
+        <element name="SendButton" locator_type="css" locator_value=".redBtn.hideOnSubmit.directLink.formSubmitLink>span"/>
+        <element name="CancelButton" locator_type="css" locator_value=".greyBtnBig.cancelBtn.directLink>span" />
+    </forgotPassword>
+    <Step1>
+        <element name="JoinEmailBox" locator_type="id" locator_value="email"/>
+        <element name="Accept" locator_type="css" locator_value=".redBtn.acceptBtn.directLink.formSubmitLink>span"/>
+        <element name="SelectEditionsNewYorkPerks" locator_type="id" locator_value="member_editions_26"/>
+        <element name="SelectEditionsBostonPerks" locator_type="id" locator_value="member_editions_30"/>
+        <element name="SelectEditionsChicagoPerks" locator_type="id" locator_value="member_editions_29"/>
+        <element name="SelectEditionsDCPerks" locator_type="id" locator_value="member_editions_32"/>
+        <element name="SelectEditionsLAPerks" locator_type="id" locator_value="member_editions_27"/>
+        <element name="SelectEditionsMiamiPerks" locator_type="id" locator_value="member_editions_31"/>
+        <element name="SelectEditionsNationalPerks" locator_type="id" locator_value="member_editions_28"/>
+        <element name="MoreLink1" locator_type="css" locator_value=".directLink.clickHere"/>
+        <element name="SelectEditorialEditionsAtlanta" locator_type="id" locator_value="member_editions_22"/>
+        <element name="SelectEditorialEditionsBoston" locator_type="id" locator_value="member_editions_16"/>
+        <element name="SelectEditorialEditionsChicago" locator_type="id" locator_value="member_editions_15"/>
+        <element name="SelectEditorialEditionsDallas" locator_type="id" locator_value="member_editions_17"/>
+        <element name="SelectEditorialEditionsDC" locator_type="id" locator_value="member_editions_21"/>
+        <element name="SelectEditorialEditionsDriven" locator_type="id" locator_value="member_editions_33"/>
+        <element name="SelectEditorialEditionsJetset" locator_type="id" locator_value="member_editions_13"/>
+        <element name="SelectEditorialEditionsLasVegas" locator_type="id" locator_value="member_editions_18"/>
+        <element name="SelectEditorialEditionsLosAngeles" locator_type="id" locator_value="member_editions_11"/>
+        <element name="SelectEditorialEditionsMiami" locator_type="id" locator_value="member_editions_19"/>
+        <element name="SelectEditorialEditionsNational" locator_type="id" locator_value="member_editions_12"/>
+        <element name="SelectEditorialEditionsNewYork" locator_type="id" locator_value="member_editions_1"/>
+        <element name="SelectEditorialEditionsSanFranciso" locator_type="id" locator_value="member_editions_14"/>
+        <element name="SelectEditorialEditionsSkiBoard" locator_type="id" locator_value="member_editions_25"/>
+        <element name="Submit1" locator_type="css" locator_value=".redBtn.acceptBtn.directLink.formSubmitLink.formSubmitLink.submitLink>span"/>
+        <element name="ErrorMessageNoPerkSelected" locator_type="css" locator_value=".signupErrors>div>div"/>
+    </Step1>
+    <Step2>
+        <element name="EnterPassword" locator_type="id" locator_value="flowPassword"/>
+        <element name="ConfirmPassword" locator_type="id" locator_value="flowPasswordRetype"/>
+        <element name="EnterFirstName" locator_type="id" locator_value="flowFirstName"/>
+        <element name="EnterLastName" locator_type="id" locator_value="flowLastName"/>
+        <element name="SelectGender" locator_type="id" locator_value="flowGender"/>
+        <element name="SelectIncomeRange" locator_type="id" locator_value="flowIncome"/>
+        <element name="EnterZipCode" locator_type="id" locator_value="flowZip"/>
+        <element name="EnterBirthday" locator_type="id" locator_value="flowBirthday"/>
+        <element name="Submit2" locator_type="css" locator_value=".redBtn.acceptBtn.directLink.formSubmitLink.formSubmitLink.formSubmitLink.formSubmitLink.submitLink>span"/>
+        <element name="PrivacyPolicy" locator_type="xpath" locator_value="html/body/div[5]/div[2]/div/div[2]/div[2]/div/form/div[5]/a[1]"/>
+        <element name="UserAgreement" locator_type="xpath" locator_value="html/body/div[5]/div[2]/div/div[2]/div[2]/div/form/div[5]/a[2]"/>
+    </Step2>
+    <Step3>
+        <element name="InviteEmail1" locator_type="id" locator_value="misc_email_1"/>
+        <element name="InviteEmail2" locator_type="id" locator_value="misc_email_2"/>
+        <element name="InviteEmail3" locator_type="id" locator_value="misc_email_3"/>
+        <element name="InviteEmail4" locator_type="id" locator_value="misc_email_4"/>
+        <element name="InviteEmail5" locator_type="id" locator_value="misc_email_5"/>
+        <element name="InviteButton" locator_type="css" locator_value=".redBtn.acceptBtn.directLink.formSubmitLink.submitLink>span"/>
+        <element name="SkipLink" locator_type="css" locator_value="#additionalSkipLink>span"/>
+        <element name="InviteErrorMessage" locator_type="css" locator_value=".signupErrors>div>div"/>
+    </Step3>
+    <Step4>
+        <element name="CloseButton" locator_type="css" locator_value=".close-button.no-fade"/>
+    </Step4>
+</elements>

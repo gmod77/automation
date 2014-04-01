@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UD_Smoke" verbose="10">
+<!-- <suite name="UD_Smoke" parallel="tests" thread-count="5" verbose="10"> -->
+    <parameter name="testLocation" value="release"/>
+    <test name="UD_test1_mobile_Android">
+        <classes>
+            <class name="org.geno.tests.UD_test1_mobile_sauce_Android" />
+        </classes>
+    </test>
+    
+        <test name="UD_test1_mobile_IPhone">
+        <classes>
+            <class name="org.geno.tests.UD_test1_mobile_sauce_IPhone" />
+        </classes>
+    </test>
+    
+</suite>
+

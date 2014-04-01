@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <LoggedOutHeader>
+        <element name="Home" locator_type="xpath" locator_value="html/body/div/div[2]/div/div/div/div/ul/li/a"/>
+        <element name="MemberLogIn" locator_type="xpath" locator_value="html/body/div/div[2]/div/div/div/div/ul/li[2]/a"/>
+        <element name="ChangeCity" locator_type="xpath" locator_value="html/body/div/div[2]/div/div/div/div[2]/a"/>
+        <element name="Chicago" locator_type="xpath" locator_value="html/body/div/div/div/ul/li/a"/>
+        <element name="Miami" locator_type="xpath" locator_value="html/body/div/div/div/ul/li[2]/a"/>
+        <element name="NewYork" locator_type="xpath" locator_value="html/body/div/div/div/ul/li[3]/a"/>
+        <element name="LosAngeles" locator_type="xpath" locator_value="html/body/div/div/div/ul/li[4]/a"/>
+        <element name="National" locator_type="xpath" locator_value="html/body/div/div/div/ul/li[5]/a"/>
+        <element name="Houston" locator_type="xpath" locator_value="html/body/div/div/div/ul/li[6]/a"/>
+        <element name="SignUp" locator_type="xpath" locator_value="html/body/div/div[2]/div/div/div[2]/div/a"/>
+        <element name="SearchBox" locator_type="xpath" locator_value=".//*[@id='search_field']"/>
+        <element name="SearchBoxGoButton" locator_type="xpath" locator_value=".//*[@id='search_submit']"/>
+    </LoggedOutHeader>
+    <LoggedInHeader>
+        <element name="MyAccount" locator_type="xpath" locator_value="html/body/div/div[2]/div/div/div/div/ul/li[2]/a"/>
+        <element name="Logout" locator_type="xpath" locator_value="html/body/div/div[2]/div/div/div/div/ul/li[3]/a"/>
+    </LoggedInHeader>
+</elements>

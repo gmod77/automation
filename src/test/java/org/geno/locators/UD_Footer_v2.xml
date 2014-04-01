@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <HomePage>
+        <element name="AboutUs" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[1]/a[1]" />
+        <element name="SignUp" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[1]/span[1]/a[1]" />
+        <element name="MyUD" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[1]/a[2]" />
+        <element name="Perks" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[1]/a[3]" />
+        <element name="Contact" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[1]/a[4]" />
+        <element name="Jobs" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[1]/a[5]" />
+        <element name="Advertise" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[1]/a[6]" />
+        <element name="Tips" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[1]/a[7]" />
+        <element name="Unsubscribe" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[1]/a[8]" />
+        <element name="MobileSite" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[2]/a[1]" />
+        <element name="EmailIssues" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[2]/a[2]" />
+        <element name="PrivacyPolicy" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[2]/a[3]" />
+        <element name="UserAgreement" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[2]/a[4]" />
+        <element name="EditorialPolicy" locator_type="xpath" locator_value=".//*[@id='footerTopContent']/div[2]/p[2]/a[5]" />
+
+        <element name="Atlanta" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[1]" />
+        <element name="Boston" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[2]" />
+        <element name="Chicago" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[3]" />
+        <element name="Dallas" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[4]" />
+        <element name="DC" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[5]" />
+        <element name="Driven" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[6]" />
+        <element name="Jetset" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[7]" />
+        <element name="LasVegas" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[8]" />
+        <element name="LosAngeles" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[9]" />
+        <element name="Miami" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[10]" />
+        <element name="National" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[11]" />
+        <element name="NewYork" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[12]" />
+        <element name="SanFrancisco" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[13]" />
+        <element name="SkiBoard" locator_type="xpath" locator_value=".//*[@id='footerBottomContent']/div[2]/a[14]" />
+    </HomePage>
+</elements>

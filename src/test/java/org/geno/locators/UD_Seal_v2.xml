@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <Signon>
+        <element name="HeaderLoginLink" locator_type="xpath" locator_value="html/body/div[1]/div[2]/div[1]/div[3]/div/div[1]/a[1]"/>
+        <element name="EmailAddress" locator_type="id" locator_value="email"/>
+        <element name="Password" locator_type="id" locator_value="password"/>
+        <element name="Login" locator_type="xpath" locator_value=".//*[@id='headSignUpHolder']/div/div[2]/div[2]/form/input[3]"/>
+        <element name="ResetPasswordLink" locator_type="xpath" locator_value=".//*[@id='headSignUpHolder']/div/div[2]/div[3]/a"/>
+        <element name="ResetPasswordLinkSub" locator_type="xpath" locator_value=".//*[@id='headSignUpHolder']/div/div[2]/div[3]/a"/>
+        <element name="JoinNowButton" locator_type="css" locator_value=".joinButton>.ajaxSignup"/>
+    </Signon>
+    <ResetPassword>
+        <element name="ResetEmail" locator_type="xpath" locator_value=".//*[@id='headSignUpHolder']/div/div[2]/div[3]/form/input[1]"/>
+        <element name="ResetEmailSub" locator_type="xpath" locator_value=".//*[@id='headSignUpHolder']/div/div[2]/div[3]/form/input[1]"/>
+        <element name="Send" locator_type="xpath" locator_value=".//*[@id='headSignUpHolder']/div/div[2]/div[3]/form/input[2]"/>
+        <element name="SendSub" locator_type="xpath" locator_value=".//*[@id='headSignUpHolder']/div/div[2]/div[3]/form/input[2]"/>
+    </ResetPassword>
+    <Settings>
+        <element name="EditSettings" locator_type="css" locator_value=".editSettings"/>
+        <element name="EditSettingsMyUd" locator_type="css" locator_value=".editSettings"/>
+        <element name="PasswordMyUD" locator_type="id" locator_value="input_password"/>
+        <element name="PasswordConfirmMyUD" locator_type="id" locator_value="input_password_retype"/>
+        <element name="EditionsAtlanta" locator_type="id" locator_value="member_editions_22"/>
+        <element name="EditionsBoston" locator_type="id" locator_value="member_editions_16"/>
+        <element name="EditionsChicago" locator_type="id" locator_value="member_editions_15"/>
+        <element name="EditionsDallas" locator_type="id" locator_value="member_editions_17"/>
+        <element name="EditionsDC" locator_type="id" locator_value="member_editions_21"/>
+        <element name="EditionsDriven" locator_type="id" locator_value="member_editions_33"/>
+        <element name="EditionsJetset" locator_type="id" locator_value="member_editions_13"/>
+        <element name="EditionsLV" locator_type="id" locator_value="member_editions_18"/>
+        <element name="EditionsLA" locator_type="id" locator_value="member_editions_11"/>
+        <element name="EditionsMiami" locator_type="id" locator_value="member_editions_19"/>
+        <element name="EditionsNational" locator_type="id" locator_value="member_editions_12"/>
+        <element name="EditionsNY" locator_type="id" locator_value="member_editions_1"/>
+        <element name="EditionsPhilly" locator_type="id" locator_value="member_editions_24"/>
+        <element name="EditionsSF" locator_type="id" locator_value="member_editions_14"/>
+        <element name="EditionsSeattle" locator_type="id" locator_value="member_editions_23"/>
+        <element name="EditionsSkiBoard" locator_type="id" locator_value="member_editions_25"/>
+        <element name="PerksBoston" locator_type="id" locator_value="member_editions_30"/>
+        <element name="PerksChicago" locator_type="id" locator_value="member_editions_29"/>
+        <element name="PerksDC" locator_type="id" locator_value="member_editions_32"/>
+        <element name="PerksLA" locator_type="id" locator_value="member_editions_27"/>
+        <element name="PerksMiami" locator_type="id" locator_value="member_editions_31"/>
+        <element name="PerksNational" locator_type="id" locator_value="member_editions_28"/>
+        <element name="PerksNY" locator_type="id" locator_value="member_editions_26"/>
+        <element name="Update" locator_type="css" locator_value=".updateButton"/>
+        <element name="Close" locator_type="css" locator_value=".input.ajaxClose.directLink"/>
+    </Settings>
+    <LoggedIn>
+        <element name="Name" locator_type="xpath" locator_value=".//*[@id='badgeHolder']/div/div[2]/div[1]/b"/>
+    </LoggedIn>
+</elements>

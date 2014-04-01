@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <HomePage>
+        <element name="AboutUs" locator_type="xpath" locator_value=".//*[@id='footer_static_links']/ul/li[1]/a"/>
+        <element name="SignUp" locator_type="xpath" locator_value=".//*[@id='footer_static_links']/ul/li[2]/a"/>
+        <element name="MyAccount" locator_type="xpath" locator_value=".//*[@id='footer_static_links']/ul/li[2]/a"/>
+        <element name="Contact" locator_type="xpath" locator_value=".//*[@id='footer_static_links']/ul/li[3]/a"/>
+        <element name="Jobs" locator_type="xpath" locator_value=".//*[@id='footer_static_links']/ul/li[4]/a"/>
+        <element name="Advertise" locator_type="xpath" locator_value=".//*[@id='footer_static_links']/ul/li[5]/a"/>
+        <element name="Unsubscribe" locator_type="xpath" locator_value=".//*[@id='footer_static_links']/ul/li[6]/a"/>
+        <element name="EmailIssues" locator_type="xpath" locator_value=".//*[@id='footer_static_links']/ul/li[7]/a"/>
+        <element name="PrivacyPolicy" locator_type="xpath" locator_value=".//*[@id='footer_static_links']/ul/li[8]/a"/>
+        <element name="UserAgreement" locator_type="xpath" locator_value=".//*[@id='footer_static_links']/ul/li[9]/a"/>
+        <element name="EditorialPolicy" locator_type="xpath" locator_value=".//*[@id='footer_static_links']/ul/li[10]/a"/>
+        <element name="Chicago" locator_type="xpath" locator_value=".//*[@id='footer_editions']/ul/li[1]/a"/>
+        <element name="Miami" locator_type="xpath" locator_value=".//*[@id='footer_editions']/ul/li[2]/a"/>
+        <element name="NewYork" locator_type="xpath" locator_value=".//*[@id='footer_editions']/ul/li[3]/a"/>
+        <element name="LosAngeles" locator_type="xpath" locator_value=".//*[@id='footer_editions']/ul/li[4]/a"/>
+        <element name="National" locator_type="xpath" locator_value=".//*[@id='footer_editions']/ul/li[5]/a"/>
+        <element name="Houston" locator_type="xpath" locator_value=".//*[@id='footer_editions']/ul/li[6]/a"/>
+    </HomePage>
+</elements>

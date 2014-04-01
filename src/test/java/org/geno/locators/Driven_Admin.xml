@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="ArticleTitleBox" locator_type="id" locator_value="title" />
+    <element name="PermaLink" locator_type="id" locator_value="sample-permalink" />
+    <element name="ArticleMainCopyFrame" locator_type="id" locator_value="content_ifr" />
+    <element name="ArticleMainCopyBox" locator_type="classname" locator_value="wp-editor-area" />
+    <element name="ArticleShortCopyBox" locator_type="id" locator_value="lex_short_text" />
+    <element name="CategoryAcceleratorSelect" locator_type="id" locator_value="in-category-5" />
+    <element name="LeftBoxTitleBox" locator_type="name" locator_value="lex_left_box_title" />
+    <element name="LeftBoxImageBox" locator_type="name" locator_value="lex_left_box_image" />
+    <element name="LeftBoxPhotoCreditsTitleBox" locator_type="name" locator_value="lex_left_photo_credits_title" />
+    <element name="LeftBoxPhotoCreditsURLBox" locator_type="name" locator_value="lex_left_photo_credits_url" />
+    <element name="MiddleTextBox" locator_type="name" locator_value="lex_mid_text" />
+    <element name="RightBoxTitleBox" locator_type="name" locator_value="lex_right_box_title" />
+    <element name="RightBoxImageBox" locator_type="name" locator_value="lex_right_box_image" />
+    <element name="RightBoxPhotoCreditsBox" locator_type="name" locator_value="lex_right_photo_credits_title" />
+    <element name="RightBoxPhotoCreditsURL" locator_type="name" locator_value="lex_right_photo_credits_url" />
+    <element name="TemplateDropdown" locator_type="name" locator_value="lex_post_style" />
+    <element name="SetFeaturedImageLink" locator_type="id" locator_value="set-post-thumbnail" />
+    <element name="SetFeaturedImageDialogTitle" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#__wp-uploader-id-2.supports-drag-drop div.media-modal div.media-modal-content div#__wp-uploader-id-0.media-frame div.media-frame-title h1" />
+    <element name="MediaModalIcon" locator_type="classname" locator_value="media-modal-icon" />
+    <element name="ImageThumbnail" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#__wp-uploader-id-2.supports-drag-drop div.media-modal div.media-modal-content div#__wp-uploader-id-0.media-frame div.media-frame-content div.attachments-browser ul#__attachments-view-29.attachments li.attachment div.attachment-preview div.thumbnail" />
+    <element name="RemoveFeaturedImageLink" locator_type="id" locator_value="remove-post-thumbnail" />
+    <element name="ArticleImageNameBox" locator_type="id" locator_value="plupload-browse-button" />
+    <element name="SelectFromMediaLeftLink" locator_type="id" locator_value="set-left-image" />
+    <element name="SelectFromMediaRightLink" locator_type="id" locator_value="set-right-image" />
+    <element name="MediaLibraryLink" locator_type="css" locator_value="html body#media-upload.wp-core-ui div#media-upload-header ul#sidemenu li#tab-library a" />
+    <element name="MLShowLink" locator_type="css" locator_value="html body#media-upload.wp-core-ui form#library-form.media-upload-form div#media-items div#media-item-22695.media-item a.toggle" />
+    <element name="MLSelectImageLinkButton" locator_type="classname" locator_value="button" />
+    <element name="UseAsFeaturedImageLink" locator_type="partiallinktext" locator_value="Use as featured image" />
+    <element name="SaveAllChangesButton" locator_type="id" locator_value="save" />
+    <element name="CloseMLButton" locator_type="classname" locator_value="tb-close-icon" />
+    <element name="SaveDraftButton" locator_type="id" locator_value="save-post" />
+    <element name="ClickAwayClick" locator_type="id" locator_value="TB_overlay" />
+    <element name="PublishButton" locator_type="id" locator_value="publish" />
+    <element name="PublishedConfirmation" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap div#message.updated p" />
+    <element name="BrowserUploaderSwitchLink" locator_type="linktext" locator_value="browser uploader" />
+    <element name="BrowseField" locator_type="id" locator_value="async-upload" />
+    <element name="SetFeaturedImageButton" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#__wp-uploader-id-2.supports-drag-drop div.media-modal div.media-modal-content div#__wp-uploader-id-0.media-frame div.media-frame-toolbar div.media-toolbar div.media-toolbar-primary a.button" />
+    <element name="ViewPostButton" locator_type="id" locator_value="view-post-btn" />
+    <element name="AddNewLink" locator_type="css" locator_value="html.wp-toolbar body.wp-admin div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap h2 a.add-new-h2" />
+</elements>

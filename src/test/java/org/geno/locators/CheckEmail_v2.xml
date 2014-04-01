@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <Assignments>
+        <element name="SelectEmailAll" locator_type="xpath" locator_value="//*[@id='select-email-all']"/>
+        <element name="Save" locator_type="xpath" locator_value="//div[@class='actions']/button"/>
+    </Assignments>
+    <Gmail>
+        <element name="Email" locator_type="id" locator_value="Email"/>
+        <element name="Password" locator_type="id" locator_value="Passwd"/>
+        <element name="SignIn" locator_type="id" locator_value="signIn"/>
+        <element name="SearchBox" locator_type="name" locator_value="q"/>
+        <element name="SearchMailButton" locator_type="name" locator_value="nvp_site_mail"/>
+        <element name="LogOut" locator_type="id" locator_value="gb_71"/>
+
+        <!--Mobile Elements-->
+        <element name="MobileSearchButton" locator_type="css" locator_value=".M.j.T.b.Mo.m>.V.j.Gc.Vh"/>
+        <element name="MobileSearchBox" locator_type="css" locator_value=".fn"/>
+        <element name="FirstEmail" locator_type="css" locator_value=".Bn"/>
+        <element name="MobileSearchEmailButton" locator_type="css" locator_value=".M.j.T.b.L.dn>.V.j.Gc.Vh"/>
+    </Gmail>
+    <Confirmation>
+        <element name="ConfirmationMessage" locator_type="xpath" locator_value=".//*[@id='login_form']/div[1]/ul/li"/>
+    </Confirmation>
+</elements>

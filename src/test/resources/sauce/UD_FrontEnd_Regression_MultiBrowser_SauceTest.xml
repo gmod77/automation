@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Frontend Smoke Test" parallel="tests" thread-count="5" verbose="10">
+    <test name="WinXP IE8 Browser Tests">
+        <parameter name="os" value="Windows XP"/>
+        <parameter name="browser" value="internet explorer"/>
+        <parameter name="version" value="8"/>
+        <classes>
+            <!--<class name="org.geno.tests.sauce.UD_RegistrationFlowTest" />-->
+            <!--<class name="org.geno.tests.sauce.UD_UnSubscribeEmailTest" />-->
+            <!--<class name="org.geno.tests.sauce.UD_ShareArticleTest"/>-->
+            <!--<class name="org.geno.tests.sauce.UD_SaveArticleTest"/>-->
+            <class name="org.geno.tests.sauce.UD_HomePageChecksTest"/>
+        </classes>
+    </test>
+
+    <test name="Win7 Chrome Browser Tests">
+        <parameter name="os" value="Windows 7"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <!--<class name="org.geno.tests.sauce.UD_RegistrationFlowTest" />-->
+            <!--<class name="org.geno.tests.sauce.UD_UnSubscribeEmailTest" />-->
+            <!--<class name="org.geno.tests.sauce.UD_ShareArticleTest"/>-->
+            <!--<class name="org.geno.tests.sauce.UD_SaveArticleTest"/>-->
+            <class name="org.geno.tests.sauce.UD_HomePageChecksTest"/>
+        </classes>
+    </test>
+
+    <test name="Win7 IE9 Browser Tests">
+        <parameter name="os" value="Windows 7"/>
+        <parameter name="browser" value="internet explorer"/>
+        <parameter name="version" value="9"/>
+        <classes>
+            <!--<class name="org.geno.tests.sauce.UD_RegistrationFlowTest" />-->
+            <!--<class name="org.geno.tests.sauce.UD_UnSubscribeEmailTest" />-->
+            <!--<class name="org.geno.tests.sauce.UD_ShareArticleTest"/>-->
+            <!--<class name="org.geno.tests.sauce.UD_SaveArticleTest"/>-->
+            <class name="org.geno.tests.sauce.UD_HomePageChecksTest"/>
+        </classes>
+    </test>
+
+    <test name="OSX 10.6 FF20 Browser Tests">
+        <parameter name="os" value="OS X 10.6"/>
+        <parameter name="browser" value="firefox"/>
+        <parameter name="version" value="20"/>
+        <classes>
+            <!--<class name="org.geno.tests.sauce.UD_RegistrationFlowTest" />-->
+            <!--<class name="org.geno.tests.sauce.UD_UnSubscribeEmailTest" />-->
+            <!--<class name="org.geno.tests.sauce.UD_ShareArticleTest"/>-->
+            <!--<class name="org.geno.tests.sauce.UD_SaveArticleTest"/>-->
+            <class name="org.geno.tests.sauce.UD_HomePageChecksTest"/>
+        </classes>
+    </test>
+
+    <test name="OSX 10.8 Safari 6 Browser Tests">
+        <parameter name="os" value="OS X 10.8"/>
+        <parameter name="browser" value="safari"/>
+        <parameter name="version" value="6"/>
+        <classes>
+            <!--<class name="org.geno.tests.sauce.UD_RegistrationFlowTest" />-->
+            <!--<class name="org.geno.tests.sauce.UD_UnSubscribeEmailTest" />-->
+            <!--<class name="org.geno.tests.sauce.UD_ShareArticleTest"/>-->
+            <!--<class name="org.geno.tests.sauce.UD_SaveArticleTest"/>-->
+            <class name="org.geno.tests.sauce.UD_HomePageChecksTest"/>
+        </classes>
+    </test>
+
+
+</suite>

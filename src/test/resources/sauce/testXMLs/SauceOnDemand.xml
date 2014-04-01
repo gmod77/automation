@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<suite name="ParallelTests" verbose="10" parallel="tests" thread-count="10">-->
+<suite name="SingleTest" verbose="10">
+    <!--<test name="Registration Test">-->
+        <parameter name="username" value="cloudbees_geno" />
+        <parameter name="key" value="3f541489-1c79-457b-9b26-ece624eff198" />
+        <parameter name="os" value="Windows 2003"/>
+        <parameter name="browser" value="firefox"/>
+        <parameter name="version" value="14"/>
+        <!--<classes>-->
+            <!--<class name="org.geno.tests.sauce.Perks_EditAccountTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<parameter name="testLocation" value="release"/>-->
+    <test name="LocalTest">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_Admin_Article_Three_ColumnResponsiveTest" />
+        </classes>
+    </test>
+    <!-- Do not need to declare listener if you're putting it into the code! it seems to duplicate output-->
+    <!--<listeners>-->
+        <!--<listener class-name="com.saucelabs.testng.SauceOnDemandTestListener"/>-->
+    <!--</listeners>-->
+</suite>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Frontend Regression Tests" parallel="tests" thread-count="5" verbose="10">
+    <test name="UD_Registration">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_RegistrationFlowTest" />
+        </classes>
+    </test>
+
+    <test name="UD_Unsubscribe">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_UnSubscribeEmailTest" />
+        </classes>
+    </test>
+
+    <test name="Article_Share">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_ShareArticleTest"/>
+        </classes>
+    </test>
+
+    <test name="Article_Save">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_SaveArticleTest"/>
+        </classes>
+    </test>
+
+    <test name="Homepage Checks">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_HomePageChecksTest"/>
+            <methods>
+                <exclude name="triggerSubscriptionModal"/>
+            </methods>
+
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <!--Top Header-->
+    <element name="TwitterLink"         locator_type="css" locator_value=".twitter>a" />
+    <element name="FacebookLink"        locator_type="css" locator_value=".facebook>a" />
+
+    <element name="genoLink"      locator_type="css" locator_value=".geno>a" />
+    <element name="PerksLink"           locator_type="css" locator_value=".perks>a" />
+    <element name="TheChroniclesLink"   locator_type="css" locator_value=".the-chronicles>a" />
+    <element name="KemptLink"           locator_type="css" locator_value=".kempt>a" />
+    <element name="DrivenLink"          locator_type="css" locator_value=".driven>a" />
+
+    <element name="SignInHover"         locator_type="css" locator_value=".trigger" />
+
+    <element name="SignUp"              locator_type="css" locator_value=".sub.loggedout>ul>li:nth-child(2)>a" />
+    <element name="MemberLogIn"         locator_type="css" locator_value=".sub.loggedout>ul>li:nth-child(1)>a" />
+
+    <element name="Cart"                locator_type="css" locator_value=".cart>.useOverlay>span" />
+
+    <element name="MyAccountHover"      locator_type="css" locator_value=".trigger" />
+    <element name="MyPerksLink"         locator_type="css" locator_value=".sub.loggedin>ul>li:nth-child(1)>a" />
+    <element name="AccountSettingsLink" locator_type="css" locator_value=".sub.loggedin>ul>li:nth-child(2)>a" />
+    <element name="LogOutLink"          locator_type="css" locator_value=".sub.loggedin>ul>li:nth-child(3)>a" />
+
+    <!--Mid Header-->
+    <element name="ChangeCity"          locator_type="css" locator_value=".editions-menu-controller" />
+    <element name="NewYork"             locator_type="css" locator_value=".level0.nav-2>a>span" />
+    <element name="National"            locator_type="css" locator_value=".level0.nav-1>a>span" />
+    <element name="Chicago"             locator_type="css" locator_value=".level0.nav-3>a>span" />
+    <element name="Miami"               locator_type="css" locator_value=".level0.nav-4>a>span" />
+    <element name="Boston"              locator_type="css" locator_value=".level0.nav-5>a>span" />
+    <element name="DC"                  locator_type="css" locator_value=".level0.nav-6>a>span" />
+    <element name="LosAngeles"          locator_type="css" locator_value=".level0.nav-7>a>span" />
+
+    <element name="PerksLogo"           locator_type="css" locator_value=".header-logo>a>img" />
+    <element name="InviteFriends"       locator_type="css" locator_value=".invite.useAjaxProxy.useOverlay" />
+    <element name="Cities"              locator_type="css" locator_value=".breadcrumbs>.home>a" />
+
+</elements>

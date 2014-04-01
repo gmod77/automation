@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <HomePageFirstTimeVisitor>
+        <element name="UDLogo" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[1]/img"/>
+        <element name="ClickableCopy" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[1]/a/img"/>
+        <element name="SignUpSeal" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[1]/div/a/img"/>
+        <element name="AtlantaLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[1]/img"/>
+        <element name="BostonLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[2]/img"/>
+        <element name="ChicagoLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[3]/img"/>
+        <element name="DallasLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[4]/img"/>
+        <element name="WashingtonDCLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[5]/img"/>
+        <element name="DrivenLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[6]/img"/>
+        <element name="JetsetLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[7]/img"/>
+        <element name="LasVegasLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[8]/img"/>
+        <element name="LosAngelesLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[9]/img"/>
+        <element name="MiamiLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[10]/img"/>
+        <element name="NationalLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[11]/img"/>
+        <element name="NewYorkLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[12]/img"/>
+        <element name="SanFranciscoLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[13]/img"/>
+        <element name="SkiBoardLink" locator_type="xpath" locator_value="//html/body/div[1]/div[1]/div/div[2]/div/div[2]/a[14]/img"/>
+    </HomePageFirstTimeVisitor>
+    <Header>
+        <element name="MemberLogInHeaderLink" locator_type="xpath" locator_value="//html/body/div[1]/div[2]/div[1]/div[3]/div/div[1]/a[1]"/>
+        <element name="SignUpHeaderLink" locator_type="xpath" locator_value="//html/body/div[1]/div[2]/div[1]/div[3]/div/div[1]/a[2]"/>
+    </Header>
+    <Gmail>
+        <element name="Email" locator_type="id" locator_value="Email"/>
+        <element name="Password" locator_type="id" locator_value="Passwd"/>
+        <element name="SignIn" locator_type="id" locator_value="signIn"/>
+        <element name="SearchBox" locator_type="css" locator_value="#q"/>
+        <element name="SearchMailButton" locator_type="css" locator_value="#nvp_site_mail"/>
+        <element name="Email" locator_type="css" locator_value="css=font > font"/>
+        <element name="TargetPrefix" locator_type="xpath" locator_value="//div [@class='y6']/span[contains(.,'"/>
+        <element name="TargetSuffix" locator_type="" locator_value="')]"/>
+    </Gmail>
+
+    <SignIn>
+        <element name="SignInSealGraphic" locator_type="css" locator_value=".pageTitle"/>
+        <element name="SignInEmailPlaceHolderTextBox" locator_type="name" locator_value="loginEmail_placeholder"/>
+        <element name="SignInEmailTextBox" locator_type="name" locator_value="loginEmail"/>
+        <element name="SignInPasswordPlaceHolderTextBox" locator_type="name" locator_value="password_placeholder"/>
+        <element name="SignInPasswordTextBox" locator_type="name" locator_value="password"/>
+        <element name="SignInButton" locator_type="css" locator_value="#signinForm>.buttonHolder>.submitButtons.hideOnSubmit>input"/>
+        <element name="SignUpHereLink" locator_type="css" locator_value=".signinLinks>span>.ajaxSignup"/>
+        <element name="SignInForgotPWLink" locator_type="css" locator_value=".signinLinks>span>.switchForm.directLink"/>
+        <element name="SignInPrivacyPolicyLink" locator_type="css" locator_value=".legalNotices>.directLink:nth-child(1)"/>
+        <element name="SignInUsrAgreementLink" locator_type="css" locator_value=".legalNotices>.directLink:nth-child(2)"/>
+        <element name="SignInXButton" locator_type="css" locator_value=".closeButton.ajaxClose.directLink"/>
+        <element name="SignInSpinner" locator_type="css" locator_value="#signinForm>.buttonHolder>.loadingMessage.showOnSubmit"/>
+        <element name="SignInPWResetEmailPlaceholder" locator_type="name" locator_value="forgotEmail_placeholder"/>
+        <element name="SignInPWResetEmailTextBox" locator_type="name" locator_value="forgotEmail"/>
+        <element name="SignInPWResetSubmitButton" locator_type="css" locator_value="#forgotPasswordForm>.buttonHolder>.submitButtons.hideOnSubmit>input"/>
+        <element name="SignInPWResetCancelLink" locator_type="css" locator_value=".cancel.switchForm.directLink"/>
+    </SignIn>
+
+    <Step1>
+        <element name="SignUpEmail" locator_type="css" locator_value=".signupEmailBox.intra-field-label"/>
+        <element name="SelectEditionsNational" locator_type="id" locator_value="member_editions_12"/>
+        <element name="SelectEditionsNationalPerks" locator_type="id" locator_value="member_editions_28"/>
+        <element name="SelectEditionsNewYork" locator_type="id" locator_value="member_editions_1"/>
+        <element name="SelectEditionsNewYorkPerks" locator_type="id" locator_value="member_editions_26"/>
+        <element name="SelectEditionsDriven" locator_type="id" locator_value="member_editions_33"/>
+        <element name="SelectEditionsJetset" locator_type="id" locator_value="member_editions_13"/>
+        <element name="SelectEditionsLasVegas" locator_type="id" locator_value="member_editions_18"/>
+        <element name="SelectEditionsSkiBoard" locator_type="id" locator_value="member_editions_25"/>
+        <element name="MoreLink1" locator_type="css" locator_value=".directLink.clickHere"/>
+        <element name="SelectEditorialEditionsAtlanta" locator_type="id" locator_value="member_editions_22"/>
+        <element name="SelectEditorialEditionsBoston" locator_type="id" locator_value="member_editions_16"/>
+        <element name="SelectEditorialEditionsChicago" locator_type="id" locator_value="member_editions_15"/>
+        <element name="SelectEditorialEditionsDallas" locator_type="id" locator_value="member_editions_17"/>
+        <element name="SelectEditorialEditionsDC" locator_type="id" locator_value="member_editions_21"/>
+        <element name="SelectEditorialEditionsLosAngeles" locator_type="id" locator_value="member_editions_11"/>
+        <element name="SelectEditorialEditionsMiami" locator_type="id" locator_value="member_editions_19"/>
+        <element name="SelectEditorialEditionsSanFranciso" locator_type="id" locator_value="member_editions_14"/>
+        <element name="MoreLink2" locator_type="css" locator_value=".directLink.clickHere"/>
+        <element name="SelectPerksEditionsBostonPerks" locator_type="id" locator_value="member_editions_30"/>
+        <element name="SelectPerksEditionsChicagoPerks" locator_type="id" locator_value="member_editions_29"/>
+        <element name="SelectPerksEditionsDCPerks" locator_type="id" locator_value="member_editions_32"/>
+        <element name="SelectPerksEditionsLosAngelesPerks" locator_type="id" locator_value="member_editions_27"/>
+        <element name="SelectPerksEditionsMiamiPerks" locator_type="id" locator_value="member_editions_31"/>
+        <element name="Join" locator_type="css" locator_value=".submitButtons.hideOnSubmit>input"/>
+        <element name="ErrorMessage" locator_type="css" locator_value=".flow_page.select_editions>.signupErrors>div>div"/>
+    </Step1>
+    <Step2>
+        <element name="EnterPassword" locator_type="id" locator_value="flowPassword"/>
+        <element name="ConfirmPassword" locator_type="id" locator_value="flowPasswordRetype"/>
+        <element name="EnterFirstName" locator_type="id" locator_value="flowFirstName"/>
+        <element name="EnterLastName" locator_type="id" locator_value="flowLastName"/>
+        <element name="SelectGender" locator_type="id" locator_value="flowGender"/>
+        <element name="SelectIncomeRange" locator_type="id" locator_value="flowIncome"/>
+        <element name="EnterZipCode" locator_type="id" locator_value="flowZip"/>
+        <element name="EnterBirthday" locator_type="id" locator_value="flowBirthday"/>
+        <element name="ClickSubmit" locator_type="css" locator_value=".useAjaxProxy>.buttonHolder>.submitButtons.hideOnSubmit>input"/>
+    </Step2>
+    <Step3>
+        <element name="InviteEmail1" locator_type="id" locator_value="misc_email_1"/>
+        <element name="InviteEmail2" locator_type="id" locator_value="misc_email_2"/>
+        <element name="InviteEmail3" locator_type="id" locator_value="misc_email_3"/>
+        <element name="InviteEmail4" locator_type="id" locator_value="misc_email_4"/>
+        <element name="InviteEmail5" locator_type="id" locator_value="misc_email_5"/>
+        <element name="InviteButton" locator_type="css" locator_value=".useAjaxProxy.inviteDirect>.buttonHolder>.submitButtons.hideOnSubmit>input"/>
+        <element name="SkipLink" locator_type="css" locator_value=".input"/>
+        <element name="InviteErrorMessage" locator_type="css" locator_value=".signupErrors>div>div"/>
+    </Step3>
+    <Step4>
+        <element name="CloseButton" locator_type="css" locator_value=".flow_page.thanks>.closeButton.ajaxClose.directLink"/>
+    </Step4>
+    <Update>
+        <element name="Atlanta" locator_type="id" locator_value="member_editions_22"/>
+        <element name="Boston" locator_type="id" locator_value="member_editions_16"/>
+        <element name="Chicago" locator_type="id" locator_value="member_editions_15"/>
+        <element name="Dallas" locator_type="id" locator_value="member_editions_17"/>
+        <element name="DC" locator_type="id" locator_value="member_editions_21"/>
+        <element name="Driven" locator_type="id" locator_value="member_editions_33"/>
+        <element name="JetsetWeekly" locator_type="id" locator_value="member_editions_13"/>
+        <element name="LasVegas" locator_type="id" locator_value="member_editions_18"/>
+        <element name="LosAngeles" locator_type="id" locator_value="member_editions_11"/>
+        <element name="Miami" locator_type="id" locator_value="member_editions_19"/>
+        <element name="National" locator_type="id" locator_value="member_editions_12"/>
+        <element name="NewYork" locator_type="id" locator_value="member_editions_1"/>
+        <element name="Philly" locator_type="id" locator_value="member_editions_24"/>
+        <element name="SanFrancisco" locator_type="id" locator_value="member_editions_14"/>
+        <element name="Seattle" locator_type="id" locator_value="member_editions_23"/>
+        <element name="SkiBoard" locator_type="id" locator_value="member_editions_25"/>
+        <element name="BostonPerks" locator_type="id" locator_value="member_editions_30"/>
+        <element name="ChicagoPerks" locator_type="id" locator_value="member_editions_29"/>
+        <element name="DCPerks" locator_type="id" locator_value="member_editions_32"/>
+        <element name="LosAngelesPerks" locator_type="id" locator_value="member_editions_27"/>
+        <element name="MiamiPerks" locator_type="id" locator_value="member_editions_31"/>
+        <element name="NationalPerks" locator_type="id" locator_value="member_editions_28"/>
+        <element name="NewYorkPerks" locator_type="id" locator_value="member_editions_26"/>
+        <element name="UpdateButton" locator_type="css" locator_value=".updateButton"/>
+        <element name="ConfirmButton" locator_type="css" locator_value=".updateButton"/>
+    </Update>
+</elements>

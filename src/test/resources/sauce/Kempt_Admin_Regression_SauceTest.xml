@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Kempt Admin Smoke Test" parallel="tests" thread-count="4" verbose="10">
+<!--<suite name="Admin Smoke Test" verbose="10">-->
+    <test name="Kempt_Admin_New_PostTest">
+        <classes>
+            <class name="org.geno.tests.sauce.Kempt_Admin_New_PostTest" />
+        </classes>
+    </test>
+
+</suite>
+

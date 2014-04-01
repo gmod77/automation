@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <Step1>
+        <element name="Email" locator_type="name" locator_value="email"/>
+        <element name="EmailPlaceHolder" locator_type="name" locator_value="email_placeholder"/>
+        <element name="SelectEditionsLasVegas" locator_type="xpath" locator_value="//*[@id='member_editions_18']"/>
+        <element name="SelectEditionsJetset" locator_type="xpath" locator_value="//*[@id='member_editions_13']"/>
+        <element name="SelectEditionsSkiBoard" locator_type="xpath" locator_value="//*[@id='member_editions_25']"/>
+        <element name="SelectEditionsLosAngeles" locator_type="xpath" locator_value="//.//*[@id='sign_up_editions']/ul/li[5]/div"/>
+        <element name="SelectEditionsNational" locator_type="xpath" locator_value="//.//*[@id='sign_up_editions']/ul/li/div"/>
+        <element name="SelectEditionsHouston" locator_type="xpath" locator_value="//.//*[@id='sign_up_editions']/ul/li[6]/div"/>
+        <element name="Join" locator_type="name" locator_value="submit"/>
+        <element name="ErrorMessage" locator_type="xpath" locator_value="//.//*[@id='sign_up_box']/div[2]"/>
+    </Step1>
+    <Step2>
+        <element name="EnterPasswordPlaceHolder" locator_type="name" locator_value="password_placeholder"/>
+        <element name="EnterPassword" locator_type="name" locator_value="password"/>
+        <element name="ConfirmPasswordPlaceHolder" locator_type="name" locator_value="password_retype_placeholder"/>
+        <element name="ConfirmPassword" locator_type="name" locator_value="password_retype"/>
+        <element name="EnterFirstNamePlaceHolder" locator_type="name" locator_value="first_name_placeholder"/>
+        <element name="EnterFirstName" locator_type="name" locator_value="first_name"/>
+        <element name="EnterLastNamePlaceHolder" locator_type="name" locator_value="last_name_placeholder"/>
+        <element name="EnterLastName" locator_type="name" locator_value="last_name"/>
+        <element name="SelectGender" locator_type="id" locator_value="flowGender"/>
+        <element name="EnterZipCodePlaceHolder" locator_type="name" locator_value="zip_placeholder"/>
+        <element name="EnterZipCode" locator_type="name" locator_value="zip"/>
+        <element name="EnterBirthdayPlaceHolder" locator_type="name" locator_value="birthdate_placeholder"/>
+        <element name="EnterBirthday" locator_type="name" locator_value="birthdate"/>
+        <element name="ClickSubmit" locator_type="name" locator_value="submit"/>
+    </Step2>
+    <Step3>
+        <element name="InviteEmail1PlaceHolder" locator_type="name" locator_value="misc_email_placeholder[1]"/>
+        <element name="InviteEmail1" locator_type="id" locator_value="misc_email_1"/>
+        <element name="InviteEmail2PlaceHolder" locator_type="name" locator_value="misc_email_placeholder[2]"/>
+        <element name="InviteEmail2" locator_type="id" locator_value="misc_email_2"/>
+        <element name="InviteEmail3PlaceHolder" locator_type="name" locator_value="misc_email_placeholder[3]"/>
+        <element name="InviteEmail3" locator_type="id" locator_value="misc_email_3"/>
+        <element name="InviteEmail4PlaceHolder" locator_type="name" locator_value="misc_email_placeholder[4]"/>
+        <element name="InviteEmail4" locator_type="id" locator_value="misc_email_4"/>
+        <element name="InviteEmail5PlaceHolder" locator_type="name" locator_value="misc_email_placeholder[5]"/>
+        <element name="InviteEmail5" locator_type="id" locator_value="misc_email_5"/>
+        <element name="ClickInvite" locator_type="css" locator_value=".inviteDirect>.buttonHolder>.submitButtons.hideOnSubmit>input"/>
+        <element name="ClickSkip" locator_type="xpath" locator_value="//.//*[@id='sign_up_invites']/div[3]/div[1]/a"/>
+        <element name="ErrorMessage" locator_type="xpath" locator_value="//.//*[@id='sign_up_invites']/div[2]/div"/>
+    </Step3>
+    <Step4>
+        <element name="FinalConfirmationModal" locator_type="classname" locator_value="signup-bg-top"/>
+        <element name="FBFriendUs" locator_type="css" locator_value="html.js body.home div.ajaxPopup div.ajaxPopupContent div.signup-bg-top div.signup-bg-bottom div.signup div.flow_page div.media-container div.media a.icon"/>
+        <element name="TwitterFollowUs" locator_type="css" locator_value="html.js body.home div.ajaxPopup div.ajaxPopupContent div.signup-bg-top div.signup-bg-bottom div.signup div.flow_page div.media-container div.media a.icon"/>
+        <element name="DownloadUs" locator_type="css" locator_value="html.js body.home div.ajaxPopup div.ajaxPopupContent div.signup-bg-top div.signup-bg-bottom div.signup div.flow_page div.media-container div.media a.icon"/>
+        <element name="PrivacyPolicyLink" locator_type="css" locator_value="html.js body.home div.ajaxPopup div.ajaxPopupContent div.signup-bg-top div.signup-bg-bottom div.signup div.flow_page div.legalNotices a.directLink"/>
+        <element name="TermsConditionsLink" locator_type="css" locator_value="html.js body.home div.ajaxPopup div.ajaxPopupContent div.signup-bg-top div.signup-bg-bottom div.signup div.flow_page div.legalNotices a.directLink"/>
+        <element name="CloseButton" locator_type="css" locator_value="html.js body.home div.ajaxPopup div.ajaxPopupContent div.signup-bg-top div.signup-bg-bottom div.signup div.flow_page a.closeButton"/>
+    </Step4>
+</elements>

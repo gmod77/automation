@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Hotmail Promotion -- All Cities Perks Page Regression Suite" verbose="10" parallel="tests" thread-count="3">
+    <test name="National Perks Page Regression">
+        <parameter name="city" value="national" />
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_HotmailPagesRegressionTest" />
+        </classes>
+    </test>
+
+    <test name="New York Perks Page Regression">
+        <parameter name="city" value="new-york" />
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_HotmailPagesRegressionTest" />
+        </classes>
+    </test>
+
+    <test name="Chicago Perks Page Regression">
+        <parameter name="city" value="chicago" />
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_HotmailPagesRegressionTest" />
+        </classes>
+    </test>
+
+    <test name="Boston Perks Page Regression">
+        <parameter name="city" value="boston" />
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_HotmailPagesRegressionTest" />
+        </classes>
+    </test>
+
+    <test name="Washington DC Perks Page Regression">
+        <parameter name="city" value="washington-dc" />
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_HotmailPagesRegressionTest" />
+        </classes>
+    </test>
+
+    <test name="Los Angeles Perks Page Regression">
+        <parameter name="city" value="los-angeles" />
+        <classes>
+            <class name="org.geno.tests.sauce.Perks_HotmailPagesRegressionTest" />
+        </classes>
+    </test>
+
+</suite>

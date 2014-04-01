@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Frontend Smoke Test" parallel="tests" thread-count="5" verbose="10">
+    <test name="Homepage Checks">
+        <classes>
+            <class name="org.geno.tests.sauce.UD_HomePageChecksTest"/>
+            <methods>
+                <include name="triggerSubscriptionModal"/>
+            </methods>
+        </classes>
+    </test>
+</suite>

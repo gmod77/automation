@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="UserName"                    locator_type="id"       locator_value="username"/>
+    <element name="Password"                    locator_type="id"       locator_value="login"/>
+    <element name="LoginButton"                 locator_type="id"       locator_value="loginForm"/>
+
+    <element name="PopupWindow"                 locator_type="id"       locator_value="message-popup-window"/>
+    <element name="ClosePopupButton"            locator_type="xpath"    locator_value="/html/body/div/div[4]/div/a"/>
+
+    <element name="ManageProductsLink"          locator_type="xpath"    locator_value="/html/body/div/div/div[3]/ul/li[3]/ul/li/a"/>
+    <element name="AddProductButton"            locator_type="css"      locator_value=".content-header .a-right>button"/>
+    <element name="AttributeSetDropDown"        locator_type="id"       locator_value="attribute_set_id"/>
+    <element name="ProductTypeDropDown"         locator_type="id"       locator_value="product_type"/>
+    <element name="ContinueButton"              locator_type="id"       locator_value="continue_button"/>
+
+    <element name="BizNameTextBox"              locator_type="id"       locator_value="business_name"/>
+    <element name="AddtlInfoTextBox"            locator_type="id"       locator_value="addtl_info_copy"/>
+    <element name="DescriptionTextBox"          locator_type="id"       locator_value="description"/>
+    <element name="SubjectTextBox"              locator_type="id"       locator_value="name"/>
+    <element name="OfferTextBox"                locator_type="id"       locator_value="offer"/>
+    <element name="OfferSumTextBox"             locator_type="id"       locator_value="offer_summation"/>
+    <element name="InternalNameTextBox"         locator_type="id"       locator_value="perk_internal_name"/>
+    <element name="SKUTextBox"                  locator_type="id"       locator_value="sku"/>
+    <element name="ShowQtyDropDown"             locator_type="id"       locator_value="show_qty"/>
+    <element name="ModuleHeadlineTextBox"       locator_type="id"       locator_value="subheader"/>
+    <element name="IphoneHeadlineTextBox"       locator_type="id"       locator_value="subheader_iphone"/>
+    <element name="ItemPageHeadlineTextBox"     locator_type="id"       locator_value="subheader_product"/>
+    <element name="StatusDropDown"              locator_type="id"       locator_value="status"/>
+
+    <!--Dashboard-->
+    <element name="DashboardPage"               locator_type="id"       locator_value="product_info_tabs_group_44"/>
+    <element name="DB1TextMiddleTextBox"        locator_type="id"       locator_value="dashboard1_text_middle"/>
+    <element name="DB1TextTopTextBox"           locator_type="id"       locator_value="dashboard1_text_top"/>
+    <element name="DB2TextMiddleTextBox"        locator_type="id"       locator_value="dashboard2_text_middle"/>
+    <element name="DB2TextTopTextBox"           locator_type="id"       locator_value="dashboard2_text_top"/>
+    <element name="DB3TextMiddleTextBox"        locator_type="id"       locator_value="dashboard3_text_middle"/>
+    <element name="DB3TextTopTextBox"           locator_type="id"       locator_value="dashboard3_text_top"/>
+
+    <element name="DBPos1DropDown"              locator_type="id"       locator_value="dashboard_position_1"/>
+    <element name="DBPos2DropDown"              locator_type="id"       locator_value="dashboard_position_2"/>
+    <element name="DBPos3DropDown"              locator_type="id"       locator_value="dashboard_position_3"/>
+    <element name="DBPos4DropDown"              locator_type="id"       locator_value="dashboard_position_4"/>
+
+    <!--Inventory Counters-->
+    <element name="InventoryCountersPage"       locator_type="id"       locator_value="product_info_tabs_group_48"/>
+    <element name="EndDate"                     locator_type="id"       locator_value="countdown_end_date"/>
+    <element name="EndHour"                     locator_type="id"       locator_value="countdown_end_hour"/>
+    <element name="FormatDropDown"              locator_type="id"       locator_value="countdown_format"/>
+
+    <!--Price-->
+    <element name="PricePage"                   locator_type="id"       locator_value="product_info_tabs_group_38"/>
+    <element name="CostTextBox"                 locator_type="id"       locator_value="cost"/>
+    <element name="PriceTextBox"                locator_type="id"       locator_value="price"/>
+    <element name="TaxClassDropDown"            locator_type="id"       locator_value="tax_class_id"/>
+
+    <!--Images-->
+    <element name="ImagesPage"                  locator_type="id"       locator_value="product_info_tabs_group_40"/>
+
+    <!--PerkInventory-->
+    <element name="InventoryPage"               locator_type="id"       locator_value="product_info_tabs_inventory"/>
+    <element name="ManageStockCheckBox"         locator_type="id"       locator_value="inventory_use_config_manage_stock"/>
+    <element name="ManageStockDropDown"         locator_type="id"       locator_value="inventory_manage_stock"/>
+    <element name="StockAvailabilityDropDown"   locator_type="id"       locator_value="inventory_stock_availability"/>
+    <element name="InventoryQtyTextBox"         locator_type="id"       locator_value="inventory_qty"/>
+
+    <!--PerkWebsite-->
+    <element name="WebSitePage"                 locator_type="id"       locator_value="product_info_tabs_websites"/>
+    <element name="MainWebSiteCheckBox"         locator_type="id"       locator_value="product_website_1"/>
+
+    <!--PerkCategories-->
+    <element name="CategoriesPage"              locator_type="id"       locator_value="product_info_tabs_categories"/>
+    <element name="ProductCategoryTree"         locator_type="id"       locator_value="product_info_tabs_categories_content"/>
+    <element name="ProductCategories"           locator_type="css"      locator_value="#product-categories>ul>div>li:nth-child(1)>ul>li>div a"/>
+
+    <!--Reporting-->
+    <element name="ReportingPage"               locator_type="id"       locator_value="product_info_tabs_group_68"/>
+    <element name="RevShareTextBox"             locator_type="id"       locator_value="ud_rev_share"/>
+
+    <!--Size-->
+    <element name="SizePage"                    locator_type="id"       locator_value="product_info_tabs_group_49"/>
+    <element name="SizeDropDown"                locator_type="id"       locator_value="module_size"/>
+
+    <!--Downloadable-->
+    <element name="DownloadablePage"            locator_type="css"      locator_value="#product_info_tabs_downloadable_items>span"/>
+    <element name="LinkItemButton"              locator_type="css"      locator_value="#add_link_item"/>
+    <element name="PurchaseTypeDropDown"        locator_type="css"      locator_value="#downloadable_link_purchase_type"/>
+
+    <!--Misc-->
+    <element name="SuccessMessage"              locator_type="css"      locator_value=".success-msg"/>
+
+
+</elements>
